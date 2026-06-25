@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sstx2-roadtoempress-story-simulator"
+version = "0.1.0"
+description = "Storyline simulator and knowledge corpus for SSTX2 / RoadToEmpress."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+sstx2-story-simulator = "road_state_tracker.cli:main"
+road-state-tracker = "road_state_tracker.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

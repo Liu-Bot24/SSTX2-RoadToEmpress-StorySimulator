@@ -1,0 +1,1211 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-25",
+  "runtimeEnabled": true,
+  "description": "盛世天下二剧情图“真实历史人物”显示层映射。开启显示层时按同语境替换页面可见文本；关闭后恢复游戏原文。",
+  "replacementCandidates": [
+    {
+      "id": "bianji-case-context",
+      "match": "辩积相关谋反案",
+      "replace": "辩机相关谋反案",
+      "mode": "exact",
+      "source": "参考资料",
+      "category": "context_term",
+      "note": "边界：完整短语“辩积相关谋反案”显示为“辩机相关谋反案”。语境：案件/事件名称；单独人名另由“辩积 -> 辩机”条目处理。"
+    },
+    {
+      "id": "dasheng-huangdi-shengdi-title",
+      "match": "大盛皇帝盛帝",
+      "replace": "大唐太宗皇帝",
+      "mode": "exact",
+      "source": "参考资料",
+      "category": "person_or_title",
+      "note": "边界：只替换完整短语“大盛皇帝盛帝”为“大唐太宗皇帝”。语境：保留皇帝称谓，避免把短语拆成不通顺的组合。例外：后人口吻也可使用“太宗皇帝”类称谓。",
+      "evidence": [
+        "data/knowledge/dossiers/aliases/characters/盛帝__Character_lishimin__alias.md"
+      ]
+    },
+    {
+      "id": "taishiling-lichengfeng-name",
+      "match": "太史令李乘风",
+      "replace": "太史令李淳风",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整官职+姓名“太史令李乘风”显示为“太史令李淳风”。语境：保留“太史令”官职，只修复人名。"
+    },
+    {
+      "id": "礼弘-幼年-stage-name",
+      "match": "礼弘(幼年)",
+      "replace": "李弘(幼年)",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：只修复人物档案文件名或阶段标签中的姓名；保留“幼年”阶段标记。语境：对应李弘的幼年阶段。"
+    },
+    {
+      "id": "礼弘-青年-stage-name",
+      "match": "礼弘(青年)",
+      "replace": "李弘(青年)",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：只修复人物档案文件名或阶段标签中的姓名；保留“青年”阶段标记。语境：对应李弘的青年阶段。"
+    },
+    {
+      "id": "礼旦-幼年-stage-name",
+      "match": "礼旦(幼年)",
+      "replace": "李旦(幼年)",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：只修复人物档案文件名或阶段标签中的姓名；保留“幼年”阶段标记。语境：对应李旦的幼年阶段。"
+    },
+    {
+      "id": "礼旦-青年-stage-name",
+      "match": "礼旦(青年)",
+      "replace": "李旦(青年)",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：只修复人物档案文件名或阶段标签中的姓名；保留“青年”阶段标记。语境：对应李旦的青年阶段。"
+    },
+    {
+      "id": "礼显-幼年-stage-name",
+      "match": "礼显(幼年)",
+      "replace": "李显(幼年)",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：只修复人物档案文件名或阶段标签中的姓名；保留“幼年”阶段标记。语境：对应李显的幼年阶段。"
+    },
+    {
+      "id": "礼显-青年-stage-name",
+      "match": "礼显(青年)",
+      "replace": "李显(青年)",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：只修复人物档案文件名或阶段标签中的姓名；保留“青年”阶段标记。语境：对应李显的青年阶段。"
+    },
+    {
+      "id": "礼贤-幼年-stage-name",
+      "match": "礼贤(幼年)",
+      "replace": "李贤(幼年)",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：只修复人物档案文件名或阶段标签中的姓名；保留“幼年”阶段标记。语境：对应李贤的幼年阶段。"
+    },
+    {
+      "id": "礼贤-青年-stage-name",
+      "match": "礼贤(青年)",
+      "replace": "李贤(青年)",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：只修复人物档案文件名或阶段标签中的姓名；保留“青年”阶段标记。语境：对应李贤的青年阶段。"
+    },
+    {
+      "id": "shangguanyi-memory-name",
+      "match": "上官宜回忆",
+      "replace": "上官仪回忆",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：片段标签或说话人标签中的“上官宜回忆”显示为“上官仪回忆”。语境：保留“回忆”标签，只修复人名谐写。史实：上官仪为唐高宗朝宰相，上官婉儿祖父。"
+    },
+    {
+      "id": "gaoyang-princess-elder-title",
+      "match": "高扬长公主",
+      "replace": "高阳长公主",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整封号“高扬长公主”显示为“高阳长公主”。语境：保留“长公主”封号，优先于裸称“高扬”。"
+    },
+    {
+      "id": "shangguanwaner-name",
+      "match": "上官琬儿",
+      "replace": "上官婉儿",
+      "mode": "exact",
+      "source": "当前资料/删减内容",
+      "category": "person_or_title",
+      "note": "边界：原文“上官琬儿”显示为“上官婉儿”。语境：用于角色名、说话人和摘要文本；当前正文字幕中已有该写法。"
+    },
+    {
+      "id": "wuzhou-empress",
+      "match": "伍周女皇",
+      "replace": "武周女皇",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整称谓“伍周女皇”显示为“武周女皇”。语境：保留政权+女皇称谓，不替成武则天实名。"
+    },
+    {
+      "id": "wu-family-inlaws",
+      "match": "伍家外戚",
+      "replace": "武家外戚",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整群体词“伍家外戚”显示为“武家外戚”。语境：指女帝线后期武氏外戚势力，不指向单个人。"
+    },
+    {
+      "id": "wushi-family",
+      "match": "伍氏一族",
+      "replace": "武氏一族",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整家族词“伍氏一族”显示为“武氏一族”。语境：指武氏家族整体，不指向伍媚娘个人。"
+    },
+    {
+      "id": "wushi-brothers",
+      "match": "伍氏兄弟",
+      "replace": "武氏兄弟",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整群体词“伍氏兄弟”显示为“武氏兄弟”。语境：指武元庆、武元爽一类主角兄弟合称。"
+    },
+    {
+      "id": "wushi-elder-brothers",
+      "match": "伍氏兄长",
+      "replace": "武氏兄长",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整关系词“伍氏兄长”显示为“武氏兄长”。语境：指主角武氏兄长，不指向单一固定人物。"
+    },
+    {
+      "id": "wushi-clan-relatives",
+      "match": "伍氏族亲",
+      "replace": "武氏族亲",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整群体词“伍氏族亲”显示为“武氏族亲”。语境：指武氏族亲整体，不指向单个人。"
+    },
+    {
+      "id": "wushi-prophecy",
+      "match": "伍氏谶言",
+      "replace": "武氏谶言",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整短语“伍氏谶言”显示为“武氏谶言”。语境：保留谶言语境，只修复姓氏。"
+    },
+    {
+      "id": "wu-king-prophecy-phrase",
+      "match": "伍王谶言",
+      "replace": "武王谶言",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整短语“伍王谶言”显示为“武王谶言”。语境：保留谶言语境，优先于裸称“伍王”。"
+    },
+    {
+      "id": "female-lord-wu",
+      "match": "女主伍王",
+      "replace": "女主武王",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整短语“女主伍王”显示为“女主武王”。语境：用于李君羡/邱俊羡相关谶言语境，不当作普通人名替换。"
+    },
+    {
+      "id": "anning-princess-title",
+      "match": "安宁公主",
+      "replace": "安定公主",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整封号“安宁公主”显示为“安定公主”。语境：保留公主封号，指主角女儿及其夭折事件。"
+    },
+    {
+      "id": "anning-death-event",
+      "match": "安宁之死",
+      "replace": "安定之死",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整事件短语“安宁之死”显示为“安定之死”。语境：指安定公主夭折事件。"
+    },
+    {
+      "id": "hongan-and-anning-death",
+      "match": "弘儿和安宁",
+      "replace": "弘儿和安定",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整并列称呼“弘儿和安宁”显示为“弘儿和安定”。语境：指礼弘与安定公主。"
+    },
+    {
+      "id": "wuyuanzhao-child-name",
+      "match": "小伍元照",
+      "replace": "小武元照",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整称呼“小伍元照”显示为“小武元照”。语境：用于新世界线幼年或回忆称呼，保留“元照”语境。"
+    },
+    {
+      "id": "zhenguo-lady-title",
+      "match": "政国夫人",
+      "replace": "郑国夫人",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整封号“政国夫人”显示为“郑国夫人”。语境：用于武顺晋升后的高一级封号；与“邯国夫人”不是同一称号。史实：武顺封韩国夫人，卒后追赠郑国夫人。"
+    },
+    {
+      "id": "huanghou-wushi-title",
+      "match": "皇后伍氏",
+      "replace": "皇后武氏",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整称谓“皇后伍氏”显示为“皇后武氏”。语境：保留“皇后某氏”称谓，不替成武媚娘或武则天。"
+    },
+    {
+      "id": "li-clan-lixiaoyi-phrase",
+      "match": "礼氏族人礼孝逸",
+      "replace": "李氏族人李孝逸",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整身份短语“礼氏族人礼孝逸”显示为“李氏族人李孝逸”。语境：平叛主帅分支中以李唐宗室身份破叛军旗号。"
+    },
+    {
+      "id": "li-clan-royal-house",
+      "match": "礼氏皇室",
+      "replace": "李氏皇室",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整短语“礼氏皇室”显示为“李氏皇室”。语境：指李唐皇室整体，不指向单个人。"
+    },
+    {
+      "id": "li-clan-royal-family",
+      "match": "礼氏皇族",
+      "replace": "李氏皇族",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整短语“礼氏皇族”显示为“李氏皇族”。语境：指李唐皇族整体，不指向单个人。"
+    },
+    {
+      "id": "li-clan-dynastic-legitimacy",
+      "match": "礼氏正统",
+      "replace": "李氏正统",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整政治短语“礼氏正统”显示为“李氏正统”。语境：指李唐皇室正统。"
+    },
+    {
+      "id": "li-clan-dynastic-state",
+      "match": "礼氏江山",
+      "replace": "李唐江山",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整政治短语“礼氏江山”显示为“李唐江山”。语境：指李唐政权。"
+    },
+    {
+      "id": "support-li-clan-dynasty",
+      "match": "匡扶礼氏",
+      "replace": "匡扶李唐",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整政治短语“匡扶礼氏”显示为“匡扶李唐”。语境：指拥护李唐皇室政权。"
+    },
+    {
+      "id": "hanguo-lady-title",
+      "match": "邯国夫人",
+      "replace": "韩国夫人",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整封号“邯国夫人”显示为“韩国夫人”。语境：指武顺封号谐写，保留夫人封号。"
+    },
+    {
+      "id": "gaoyang-princess-title",
+      "match": "高扬公主",
+      "replace": "高阳公主",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整封号“高扬公主”显示为“高阳公主”。语境：保留公主封号，只修复“扬/阳”谐写。"
+    },
+    {
+      "id": "shangguanyi-name",
+      "match": "上官宜",
+      "replace": "上官仪",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“上官宜”显示为“上官仪”。语境：用于上官仪本人或相关回忆/档案。史实：上官仪为唐高宗朝宰相、诗人，上官婉儿祖父，曾奉命草拟废武后诏，后遇害。",
+      "evidence": [
+        "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%AE%98%E4%BB%AA"
+      ]
+    },
+    {
+      "id": "wuyuanqing-name",
+      "match": "伍元庆",
+      "replace": "武元庆",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“伍元庆”显示为“武元庆”。语境：主角兄长，保留本名语境。"
+    },
+    {
+      "id": "wuyuanzhao-name",
+      "match": "伍元照",
+      "replace": "武元照",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“伍元照”显示为“武元照”。语境：新世界线主角说话人名。例外：不改成武媚娘、武照或武则天。"
+    },
+    {
+      "id": "wuyuanshuang-name",
+      "match": "伍元爽",
+      "replace": "武元爽",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“伍元爽”显示为“武元爽”。语境：主角兄长，保留本名语境。"
+    },
+    {
+      "id": "wuyuanshun-name",
+      "match": "伍元顺",
+      "replace": "武顺",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“伍元顺”显示为“武顺”。语境：主角姐姐，按历史名统一为武顺。"
+    },
+    {
+      "id": "yuanshun-given-name",
+      "match": "元顺",
+      "replace": "武顺",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：裸名“元顺”显示为“武顺”。语境：用于封号、档案、选择标题或正文叙述中的人名；长词“伍元顺”“武元顺”优先匹配，最终同样显示为“武顺”。"
+    },
+    {
+      "id": "wushihuo-name",
+      "match": "伍士彟",
+      "replace": "武士彟",
+      "mode": "exact",
+      "source": "资料锚点",
+      "category": "person_or_title",
+      "note": "边界：若页面出现专名“伍士彟”，显示为“武士彟”。语境：主角父亲历史原名；当前页面更多出现“父亲/爹爹”等关系称谓，不直接替换。史实：武士彟曾封太原郡公、应国公，后有周国公、太原郡王等追赠/追封。",
+      "evidence": [
+        "https://zh.wikipedia.org/zh-tw/%E6%AD%A6%E5%A3%AB%E5%BD%A0?oldformat=true"
+      ]
+    },
+    {
+      "id": "wuguniang-address",
+      "match": "伍姑娘",
+      "replace": "武姑娘",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：称呼“伍姑娘”显示为“武姑娘”。语境：固定指向伍媚娘时使用，保留“姑娘”称呼，不替成姓名。"
+    },
+    {
+      "id": "wujiejie-address",
+      "match": "伍姐姐",
+      "replace": "武姐姐",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：称呼“伍姐姐”显示为“武姐姐”。语境：萧舒妃、徐敏慧等人对伍媚娘的称呼，保留“姐姐”称呼，不替成姓名。"
+    },
+    {
+      "id": "wumeiniang-name",
+      "match": "伍媚娘",
+      "replace": "武媚娘",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“伍媚娘”显示为“武媚娘”。语境：女帝线主角说话人名，保留“媚娘”阶段称呼。"
+    },
+    {
+      "id": "wu-family-army",
+      "match": "伍家军",
+      "replace": "武家军",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整称谓“伍家军”显示为“武家军”。语境：指家族势力或军队称谓，不指向单个人。"
+    },
+    {
+      "id": "wucairen-title",
+      "match": "伍才人",
+      "replace": "武才人",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：位份称呼“伍才人”显示为“武才人”。语境：保留才人位份，不替成武媚娘实名。"
+    },
+    {
+      "id": "wuchengsi-name",
+      "match": "伍承嗣",
+      "replace": "武承嗣",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“伍承嗣”显示为“武承嗣”。语境：武氏后辈/侄儿，保留本名语境。"
+    },
+    {
+      "id": "wuzhaoyi-title",
+      "match": "伍昭仪",
+      "replace": "武昭仪",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：位份称呼“伍昭仪”显示为“武昭仪”。语境：保留昭仪位份，不替成武媚娘实名。"
+    },
+    {
+      "id": "wuhuanghou-title",
+      "match": "伍皇后",
+      "replace": "武皇后",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：阶段称谓“伍皇后”显示为“武皇后”。语境：保留皇后阶段称谓，不替成武媚娘或武则天。"
+    },
+    {
+      "id": "yuantianfang-name",
+      "match": "元天方",
+      "replace": "袁天罡",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“元天方”显示为“袁天罡”。语境：用于相士、面相、天下之主预言语境。史实：《旧唐书》卷191作“袁天纲”，今常作“袁天罡”，其为襁褓中男装武则天相面并称“后当为天下之主”的典故可直接对上。",
+      "evidence": [
+        "https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7191#袁天綱"
+      ]
+    },
+    {
+      "id": "fengxiaobao-name",
+      "match": "冯晓宝",
+      "replace": "冯小宝",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“冯晓宝”显示为“冯小宝”。语境：薛怀义本名谐写，保留本名语境。"
+    },
+    {
+      "id": "lijingye-name",
+      "match": "徐敬烨",
+      "replace": "徐敬业",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“徐敬烨”显示为“徐敬业”。语境：用于扬州叛乱、讨武檄相关语境。"
+    },
+    {
+      "id": "chengwuting-name",
+      "match": "成务挺",
+      "replace": "程务挺",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“成务挺”显示为“程务挺”。语境：只修复人名谐写，不附会到其他人物。",
+      "evidence": [
+        "https://zh.wikipedia.org/wiki/%E6%9D%8E%E4%B9%89%E5%BA%9C"
+      ]
+    },
+    {
+      "id": "fangyiai-name",
+      "match": "房仪隘",
+      "replace": "房遗爱",
+      "mode": "exact",
+      "source": "参考资料",
+      "category": "person_or_title",
+      "note": "边界：人名“房仪隘”显示为“房遗爱”。语境：用于高阳公主、驸马或相关案件语境。"
+    },
+    {
+      "id": "lichengfeng-name",
+      "match": "李乘风",
+      "replace": "李淳风",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“李乘风”显示为“李淳风”。语境：只修复姓名；若原文含“太史令”，优先使用完整官职+姓名条目。"
+    },
+    {
+      "id": "liyifu-name",
+      "match": "李益府",
+      "replace": "李义府",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“李益府”显示为“李义府”。语境：用于高宗朝政治斗争、废王立武相关语境。史实：李义府为高宗朝宰相，废王立武时支持武昭仪/武后阵营，是长孙无忌等门阀老臣的政治对立面之一。"
+    },
+    {
+      "id": "lidaozong-name",
+      "match": "李道棕",
+      "replace": "李道宗",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“李道棕”显示为“李道宗”。语境：只修复人名谐写。"
+    },
+    {
+      "id": "chusuiliang-name",
+      "match": "楚遂良",
+      "replace": "褚遂良",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“楚遂良”显示为“褚遂良”。语境：用于褚遂良本人相关叙述；称谓“楚相”另有保留相位的条目。史实：褚遂良为唐太宗顾命大臣、唐高宗朝宰相，与长孙无忌同为反对立武后的重臣。",
+      "evidence": [
+        "https://zh.wikipedia.org/wiki/%E8%A4%9A%E9%81%82%E8%89%AF"
+      ]
+    },
+    {
+      "id": "wuyuanshun-half-restored-name",
+      "match": "武元顺",
+      "replace": "武顺",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：半修复写法“武元顺”统一显示为“武顺”。语境：来自官方/卡片摘要；同一视频字幕说话人仍可能作“伍元顺”。",
+      "evidence": [
+        "docs/reference/storyline-video-annotations.md:70",
+        "docs/reference/storyline-video-annotations.md:129",
+        "data/knowledge/video_subtitles/docs/016_C090C_042.subtitles.md:5"
+      ]
+    },
+    {
+      "id": "lijiancheng-name",
+      "match": "礼建成",
+      "replace": "李建成",
+      "mode": "exact",
+      "source": "参考资料",
+      "category": "person_or_title",
+      "note": "边界：人名“礼建成”显示为“李建成”。语境：前作参考档案中的历史人物谐写，当前二代页面若出现则同语境修复。"
+    },
+    {
+      "id": "lichengqian-name",
+      "match": "礼承乾",
+      "replace": "李承乾",
+      "mode": "exact",
+      "source": "参考资料",
+      "category": "person_or_title",
+      "note": "边界：人名“礼承乾”显示为“李承乾”。语境：前作/旧作参考档案人物；当前二代剧情图非常规人物。"
+    },
+    {
+      "id": "lixiaoyi-name",
+      "match": "礼孝逸",
+      "replace": "李孝逸",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“礼孝逸”显示为“李孝逸”。语境：平叛主帅分支中的李氏宗族将领。"
+    },
+    {
+      "id": "lisujie-name",
+      "match": "礼素节",
+      "replace": "李素节",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“礼素节”显示为“李素节”。语境：萧淑妃之子，保留人名语境。"
+    },
+    {
+      "id": "xiaoshufei-title",
+      "match": "萧舒妃",
+      "replace": "萧淑妃",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：称谓“萧舒妃”显示为“萧淑妃”。语境：保留妃嫔称谓，只修复“舒/淑”谐写。"
+    },
+    {
+      "id": "shufei-olive-branch-title",
+      "match": "舒妃的橄榄枝",
+      "replace": "淑妃的橄榄枝",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整剧情标题“舒妃的橄榄枝”显示为“淑妃的橄榄枝”。语境：指萧淑妃向伍媚娘抛出的拉拢。"
+    },
+    {
+      "id": "prepare-play-for-shufei",
+      "match": "为舒妃准备的戏",
+      "replace": "为淑妃准备的戏",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整剧情标题“为舒妃准备的戏”显示为“为淑妃准备的戏”。语境：指萧淑妃相关布局。"
+    },
+    {
+      "id": "shufei-not-outsider",
+      "match": "舒妃不是外人",
+      "replace": "淑妃不是外人",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整台词/选项短语“舒妃不是外人”显示为“淑妃不是外人”。语境：指萧淑妃在场。"
+    },
+    {
+      "id": "shufei-move-aside",
+      "match": "舒妃可愿移步一叙",
+      "replace": "淑妃可愿移步一叙",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整台词“舒妃可愿移步一叙”显示为“淑妃可愿移步一叙”。语境：指萧淑妃。"
+    },
+    {
+      "id": "notify-shufei",
+      "match": "向舒妃报信",
+      "replace": "向淑妃报信",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整行动短语“向舒妃报信”显示为“向淑妃报信”。语境：指萧淑妃。"
+    },
+    {
+      "id": "according-to-shufei",
+      "match": "按照舒妃的说法",
+      "replace": "按照淑妃的说法",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整短语“按照舒妃的说法”显示为“按照淑妃的说法”。语境：指萧淑妃。"
+    },
+    {
+      "id": "xuewanche-name",
+      "match": "薛万澈",
+      "replace": "薛万彻",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“薛万澈”显示为“薛万彻”。语境：只修复人名谐写。"
+    },
+    {
+      "id": "qiujunxian-name",
+      "match": "邱俊羡",
+      "replace": "李君羡",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“邱俊羡”显示为“李君羡”。语境：用于女主武王谶言相关典故。史实：李君羡在史传中与“女主武王/女主昌”类谶语相关。",
+      "evidence": [
+        "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%90%9B%E7%BE%A1"
+      ]
+    },
+    {
+      "id": "weixuanzhen-name",
+      "match": "韦玄真",
+      "replace": "韦玄贞",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“韦玄真”显示为“韦玄贞”。语境：韦皇后之父，保留本名语境。"
+    },
+    {
+      "id": "luobinwang-name",
+      "match": "骆滨王",
+      "replace": "骆宾王",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“骆滨王”显示为“骆宾王”。语境：用于讨武檄相关语境。"
+    },
+    {
+      "id": "wuhou-title",
+      "match": "伍后",
+      "replace": "武后",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：简称“伍后”显示为“武后”。语境：保留皇后阶段简称，不替成武媚娘或武则天。"
+    },
+    {
+      "id": "wu-family",
+      "match": "伍家",
+      "replace": "武家",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：简称“伍家”在武氏家族语境中显示为“武家”。语境：指武氏家族或家族势力。例外：无关文本不替换。"
+    },
+    {
+      "id": "wushi-bare-surname",
+      "match": "伍氏",
+      "replace": "武氏",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：裸称“伍氏”在姓氏、家族或对伍媚娘的姓氏称呼中显示为“武氏”。语境：长词如“皇后伍氏”“伍氏兄弟”优先匹配。"
+    },
+    {
+      "id": "anning-name",
+      "match": "安宁",
+      "replace": "安定",
+      "mode": "occurrence",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：裸称“安宁”在指安定公主本人、其死亡事件或相关追忆时显示为“安定”。语境：当前页面绝大多数命中均为人名/事件；普通词义“安宁”不替换。",
+      "occurrences": [
+        {
+          "nearWindow": 8,
+          "notNear": [
+            "短暂安宁",
+            "后庭安宁",
+            "还后庭安宁",
+            "边境安宁",
+            "安宁并无战事",
+            "盛朝安宁",
+            "大唐安宁",
+            "还盛朝安宁",
+            "还大唐安宁",
+            "何来安宁",
+            "天下安宁",
+            "内心难以安宁",
+            "得到安宁",
+            "最后的安宁",
+            "安宁与解脱"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shengdi-cairen-title",
+      "match": "盛帝才人",
+      "replace": "太宗才人",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整身份短语“盛帝才人”显示为“太宗才人”。语境：指伍媚娘曾为唐太宗才人。"
+    },
+    {
+      "id": "shengdi-fourth-son-no-de",
+      "match": "盛帝第四子",
+      "replace": "唐太宗第四子",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：身份短语“盛帝第四子”显示为“唐太宗第四子”。语境：指魏王礼泰。"
+    },
+    {
+      "id": "shengdi-fourth-son",
+      "match": "盛帝的第四子",
+      "replace": "唐太宗第四子",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整身份短语“盛帝的第四子”显示为“唐太宗第四子”。语境：指李泰。"
+    },
+    {
+      "id": "shengdi-ninth-son-no-de",
+      "match": "盛帝第九子",
+      "replace": "唐太宗第九子",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：身份短语“盛帝第九子”显示为“唐太宗第九子”。语境：指礼治/李治。"
+    },
+    {
+      "id": "shengdi-bestowed",
+      "match": "盛帝之赐",
+      "replace": "太宗皇帝之赐",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：完整短语“盛帝之赐”显示为“太宗皇帝之赐”。语境：后人口吻提及先帝赏赐。"
+    },
+    {
+      "id": "shengdi-xiachen-phrase",
+      "match": "盛帝下陈",
+      "replace": "太宗下陈",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "context_term",
+      "note": "边界：檄文语境中的“昔充盛帝下陈”显示为“昔充太宗下陈”。语境：保留骆宾王《讨武氏檄》式古文表达，不写成口语化称呼。"
+    },
+    {
+      "id": "xuhui-name",
+      "match": "徐蕙",
+      "replace": "徐惠",
+      "mode": "exact",
+      "source": "参考资料",
+      "category": "person_or_title",
+      "note": "边界：只在页面原文明确出现“徐蕙”时显示为“徐惠”。语境：徐蕙是徐敏慧的姐姐，也是前作及回忆中的徐才人。史实：徐惠为唐太宗妃嫔，初为才人，后迁婕妤、充容，唐高宗追赠贤妃。例外：不得把“徐敏慧”替换为徐惠。",
+      "evidence": [
+        "https://zh.wikisource.org/zh-hans/Author%3A%E5%BE%90%E6%83%A0",
+        "https://zh.wikipedia.org/zh-hans/%E5%BE%90%E6%83%A0"
+      ]
+    },
+    {
+      "id": "xuxiaode-name",
+      "match": "徐效德",
+      "replace": "徐孝德",
+      "mode": "exact",
+      "source": "当前内容/参考资料",
+      "category": "person_or_title",
+      "note": "边界：人名“徐效德”显示为“徐孝德”。语境：用于西北都督、徐敏慧之父相关文本；只修复父辈姓名，不把徐敏慧或徐蕙改成同一人物。史实：徐孝德为徐惠之父。",
+      "evidence": [
+        "https://zh.wikipedia.org/zh-hans/%E5%BE%90%E6%83%A0"
+      ]
+    },
+    {
+      "id": "chenggan-name-variant",
+      "match": "承干",
+      "replace": "承乾",
+      "mode": "exact",
+      "source": "参考资料",
+      "category": "person_or_title",
+      "note": "边界：若页面出现“承干”且明确指李承乾，显示为“承乾”。语境：前作/旧作李承乾可能误写；当前未检出。"
+    },
+    {
+      "id": "chuxiang-title",
+      "match": "楚相",
+      "replace": "褚相",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：称谓“楚相”显示为“褚相”。语境：保留“相”这一官职称谓，只修复姓氏；不全局替成褚遂良。"
+    },
+    {
+      "id": "zhangsun-tawei-context",
+      "match": "长孙太尉",
+      "replace": "长孙无忌",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：游戏把长孙无忌粗暴写作“长孙太尉”；页面出现“长孙太尉”时显示为“长孙无忌”。语境：说话人、选择、摘要和正文均适用；裸称“太尉”仍保留原文。史实：长孙无忌为唐太宗长孙皇后之兄、唐高宗舅父，高宗朝重臣。",
+      "evidence": [
+        "https://zh.wikipedia.org/wiki/%E9%95%BF%E5%AD%99%E6%97%A0%E5%BF%8C",
+        "data/knowledge/video_subtitles/docs/"
+      ]
+    },
+    {
+      "id": "waner-name",
+      "match": "琬儿",
+      "replace": "婉儿",
+      "mode": "exact",
+      "source": "当前资料/删减内容",
+      "category": "person_or_title",
+      "note": "边界：裸称“琬儿”在明确指上官琬儿时显示为“婉儿”。语境：用于选择标题、摘要或人物称呼；不能用于其他同名/无关语境。"
+    },
+    {
+      "id": "shengdi-title",
+      "match": "盛帝",
+      "replace": "太宗皇帝",
+      "mode": "exact",
+      "source": "参考资料",
+      "category": "person_or_title",
+      "note": "边界：裸称“盛帝”在当前页面可见内容中均指先帝/唐太宗语境，显示为“太宗皇帝”。语境：若原文是更长短语，优先使用“盛帝才人”“盛帝第四子”“盛帝之赐”“盛帝下陈”等长短语规则。"
+    },
+    {
+      "id": "liji-name",
+      "match": "礼勣",
+      "replace": "李勣",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“礼勣”显示为“李勣”。语境：保留人名语境；爵号或官职称谓不因此替成姓名。"
+    },
+    {
+      "id": "liji-name-spaced-double",
+      "match": "礼  勣",
+      "replace": "李  勣",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：官方卡片摘要/annotation 中用于人名排版的带空格写法显示为“李  勣”，保留原有空格；不影响普通“礼”字。"
+    },
+    {
+      "id": "liji-name-spaced-single",
+      "match": "礼 勣",
+      "replace": "李 勣",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：知识库字幕卡片摘要若将官方双空格压成单空格，则显示为“李 勣”，保留原有空格；不影响普通“礼”字。"
+    },
+    {
+      "id": "lihong-name",
+      "match": "礼弘",
+      "replace": "李弘",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“礼弘”显示为“李弘”。语境：指太子李弘，保留人名语境。"
+    },
+    {
+      "id": "lizhong-name",
+      "match": "礼忠",
+      "replace": "李忠",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“礼忠”显示为“李忠”。语境：指高宗长子李忠，保留人名语境。"
+    },
+    {
+      "id": "lidan-name",
+      "match": "礼旦",
+      "replace": "李旦",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“礼旦”显示为“李旦”。语境：保留人名语境；史实中为唐睿宗。"
+    },
+    {
+      "id": "lixian1-name",
+      "match": "礼显",
+      "replace": "李显",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“礼显”显示为“李显”。语境：保留人名语境；史实中为唐中宗。"
+    },
+    {
+      "id": "li-clan",
+      "match": "礼氏",
+      "replace": "李氏",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：裸称“礼氏”在当前页面可见内容中均指李氏皇族、李唐正统或李氏血脉，显示为“李氏”。语境：长短语如“礼氏江山”“匡扶礼氏”优先匹配为“李唐江山”“匡扶李唐”。"
+    },
+    {
+      "id": "li-surname-phrase",
+      "match": "姓礼",
+      "replace": "姓李",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：短语“姓礼”在“这天下毕竟姓礼/这天下,姓礼”语境中显示为“姓李”。语境：强调李氏皇权与国姓正统，不解释为普通礼法。"
+    },
+    {
+      "id": "lizhi-name",
+      "match": "礼治",
+      "replace": "李治",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“礼治”显示为“李治”。语境：保留人名语境；史实中为唐高宗。"
+    },
+    {
+      "id": "litai-name",
+      "match": "礼泰",
+      "replace": "李泰",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“礼泰”显示为“李泰”。语境：保留人名语境；封号“魏王”本身成立，不替成李泰。"
+    },
+    {
+      "id": "lixian-name",
+      "match": "礼贤",
+      "replace": "李贤",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：人名“礼贤”显示为“李贤”。语境：保留人名语境；史实中为章怀太子李贤。"
+    },
+    {
+      "id": "shufei-title",
+      "match": "舒妃",
+      "replace": "淑妃",
+      "mode": "occurrence",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：妃嫔位号“舒妃”显示为“淑妃”。语境：这是称号谐写修复，不限于萧淑妃；杨舒妃、姨母舒妃、先帝的舒妃等同样按妃号还原。"
+    },
+    {
+      "id": "bianji-name",
+      "match": "辩积",
+      "replace": "辩机",
+      "mode": "exact",
+      "source": "参考资料",
+      "category": "person_or_title",
+      "note": "边界：单独人名“辩积”显示为“辩机”。语境：用于高阳公主心上人/僧人相关语境；这条覆盖单独出现的“辩积”，不依赖“辩积相关谋反案”短语。"
+    },
+    {
+      "id": "gaoyang-name",
+      "match": "高扬",
+      "replace": "高阳",
+      "mode": "occurrence",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：裸称“高扬”只在人名或公主语境显示为“高阳”。语境：保留人名/封号语境；普通动词“高扬”不替换。",
+      "occurrences": [
+        {
+          "nearWindow": 8,
+          "notNear": [
+            "斗志高扬",
+            "旌旗高扬",
+            "旗帜高扬",
+            "士气高扬",
+            "嘴角高扬",
+            "情绪高扬",
+            "兴致高扬",
+            "声名高扬",
+            "高高扬起",
+            "高扬起",
+            "高扬起来"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wangyifu-name",
+      "match": "王祎芙",
+      "replace": "王氏",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "person_or_title",
+      "note": "边界：游戏姓名“王祎芙”显示为“王氏”。语境：用于王皇后人物档案、摘要旁注或角色说明；若原文需要身份说明，可写“王皇后（王氏）”。",
+      "evidence": [
+        "data/knowledge/dossiers/aliases/characters/王祎芙__Character_wanghuanghou__alias.md"
+      ]
+    },
+    {
+      "id": "direnjie-name",
+      "match": "狄任介",
+      "replace": "狄仁杰",
+      "mode": "exact",
+      "source": "资料锚点",
+      "category": "person_or_title",
+      "note": "边界：页面原文“狄任介”显示为“狄仁杰”。语境：保留人名语境，不替换官职、封号或泛称。"
+    }
+  ],
+  "contextTermCandidates": [
+    {
+      "id": "shengwu-men-incident",
+      "match": "盛武门事变",
+      "replace": "玄武门事变",
+      "mode": "exact",
+      "source": "参考资料",
+      "category": "context_term",
+      "note": "前作/参考档案中的历史事件谐写，按事件名同语境修复。",
+      "evidence": [
+        "data/knowledge/dossiers/aliases/characters/盛帝__Character_lishimin__alias.md"
+      ]
+    },
+    {
+      "id": "daciensi-temple",
+      "match": "大祠恩寺",
+      "replace": "大慈恩寺",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "context_term",
+      "note": "寺院名谐写。"
+    },
+    {
+      "id": "taiyuan-wangshi-family",
+      "match": "泰原王氏",
+      "replace": "太原王氏",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "context_term",
+      "note": "门第地望谐音修复；谐音替换与全部替换均应生效。"
+    },
+    {
+      "id": "tang-palace-bad-end-title",
+      "match": "大闹盛宫",
+      "replace": "大闹唐宫",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "context_term",
+      "note": "坏结局标题中的宫廷语境；按朝代同语境显示为“大闹唐宫”。"
+    },
+    {
+      "id": "taowushi-xi",
+      "match": "讨伍氏檄",
+      "replace": "讨武氏檄",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "context_term",
+      "note": "檄文题名按姓氏同语境修复为“讨武氏檄”，保留原文的题名结构。"
+    },
+    {
+      "id": "hongwen-guan",
+      "match": "泓文馆",
+      "replace": "弘文馆",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "context_term",
+      "note": "机构名谐写。"
+    },
+    {
+      "id": "wuzhou-polity",
+      "match": "伍周",
+      "replace": "武周",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "context_term",
+      "note": "主角称帝后的政权名；不是人物，但应跟随真实历史语境修复。",
+      "evidence": [
+        "docs/local/archive/historical-character-name-inventory.md:125"
+      ]
+    },
+    {
+      "id": "tianshou-era",
+      "match": "天绶",
+      "replace": "天授",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "context_term",
+      "note": "年号谐写。"
+    },
+    {
+      "id": "hongdao-era",
+      "match": "宏道",
+      "replace": "弘道",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "context_term",
+      "note": "年号谐写。"
+    },
+    {
+      "id": "yonghui-era",
+      "match": "永辉",
+      "replace": "永徽",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "context_term",
+      "note": "年号谐写。"
+    },
+    {
+      "id": "shengan-city",
+      "match": "盛安",
+      "replace": "长安",
+      "mode": "exact",
+      "source": "当前内容",
+      "category": "context_term",
+      "note": "都城/地名；非人物。"
+    },
+    {
+      "id": "shengchao-dynasty",
+      "match": "盛朝",
+      "replace": "大唐",
+      "mode": "occurrence",
+      "source": "当前内容",
+      "category": "context_term",
+      "note": "朝代名/国家名语境；当前页面可见命中多数为国号、朝廷、疆域、军队、礼法或皇室语境，显示为“大唐”。例外：坏结局梗标题“盛朝徐影帝”不替换。",
+      "occurrences": [
+        {
+          "nearWindow": 4,
+          "notNear": [
+            "盛朝徐影帝"
+          ]
+        }
+      ]
+    }
+  ]
+}

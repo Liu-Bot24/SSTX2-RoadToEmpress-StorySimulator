@@ -1,0 +1,4849 @@
+[
+  {
+    "storyline_id": "storyline_010_fba524bc18",
+    "source_file": "storyline_010_fba524bc18.json",
+    "node_count": 104,
+    "edge_count": 107,
+    "choice_edge_count": 37,
+    "node_kind_counts": {
+      "EndPoint_BadEnd": 14,
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 2,
+      "Getter_GetVideoKeyVariable_Boloean": 4,
+      "Link_Lead": 5,
+      "Logic_OR": 2,
+      "PlayVideo_Ordinary": 54,
+      "PlayVideo_TraceBack": 4,
+      "ShowChoice": 15
+    },
+    "video_prefix_counts": {
+      "001": 1,
+      "011": 72
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_010_fba524bc18:58e18fe9",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "回宫计划\n开始",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_010_fba524bc18:0f00890b",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_010_fba524bc18:40e2ee2c",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_010_fba524bc18:afdae673",
+        "kind": "Logic_OR",
+        "label": "Logic_OR",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_010_fba524bc18:e3e9bfad",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_010_fba524bc18:be628ea5",
+        "kind": "Logic_OR",
+        "label": "Logic_OR",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_010_fba524bc18:0be20ca2",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_010_fba524bc18:17c77984",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10302,
+        "annotation": "",
+        "title_zh": "第二十二集 多余的母妃",
+        "storyline_title_zh": "前往【九嫔之首】"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10301,
+        "annotation": "小章节1",
+        "title_zh": "第二十一集 完",
+        "storyline_title_zh": "第二十一集 完"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 301,
+        "annotation": "BE01",
+        "title_zh": "皇后的一技能",
+        "target_video_key": "CL010_011_002"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 302,
+        "annotation": "BE02",
+        "title_zh": "皇后的一技能",
+        "target_video_key": "CL010_011_002"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 303,
+        "annotation": "",
+        "title_zh": "头太铁了",
+        "target_video_key": "Q020_011_016"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 306,
+        "annotation": "BE05",
+        "title_zh": "羹虽迟到",
+        "target_video_key": "CL050_011_032"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 308,
+        "annotation": "BE07",
+        "title_zh": "吃人的皇宫",
+        "target_video_key": "CL060_011_035"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 309,
+        "annotation": "BE09",
+        "title_zh": "引爆二妃怒气值",
+        "target_video_key": "CL070_011_039"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 310,
+        "annotation": "BE08",
+        "title_zh": "恋爱脑含量为0",
+        "target_video_key": "CL070_011_039"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 311,
+        "annotation": "B11",
+        "title_zh": "“皇后的孩子”",
+        "target_video_key": "CL120_011_056"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 312,
+        "annotation": "BE12",
+        "title_zh": "人间清醒小孩哥",
+        "target_video_key": "CL140_011_063"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10302,
+        "annotation": "",
+        "title_zh": "第二十二集 多余的母妃",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 315,
+        "annotation": "BE14",
+        "title_zh": "姨母的桂花羹",
+        "target_video_key": "CL150_011_069"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10301,
+        "annotation": "小章节1",
+        "title_zh": "第二十一集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 316,
+        "annotation": "",
+        "title_zh": "“皇后的孩子”",
+        "target_video_key": "CL160_011_094"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 304,
+        "annotation": "BE04",
+        "title_zh": "痒妃驾到",
+        "target_video_key": "CL030_011_024"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 305,
+        "annotation": "BE15",
+        "title_zh": "痒妃驾到",
+        "target_video_key": "CL030_011_024"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 307,
+        "annotation": "BE06",
+        "title_zh": "才不要当工具人！",
+        "target_video_key": "CL060_011_035"
+      }
+    ],
+    "reachable_from_start_count": 104
+  },
+  {
+    "storyline_id": "storyline_005_80355bb1a5",
+    "source_file": "storyline_005_80355bb1a5.json",
+    "node_count": 94,
+    "edge_count": 98,
+    "choice_edge_count": 34,
+    "node_kind_counts": {
+      "EndPoint_BadEnd": 5,
+      "EndPoint_FinalReport": 1,
+      "EndPoint_NormalEnd": 5,
+      "EndPoint_SubChapterReport": 2,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 2,
+      "Function_Storyline_If": 2,
+      "Getter_GetVideoKeyVariable_Sum": 1,
+      "Global_GlobalVariableGetter": 2,
+      "Global_GlobalVariableSetter": 2,
+      "Link_Lead": 1,
+      "Logic_AND": 1,
+      "Logic_Math_GreaterThanOrEqual": 1,
+      "PlayVideo_Ordinary": 46,
+      "PlayVideo_TraceBack": 8,
+      "ShowChoice": 14
+    },
+    "video_prefix_counts": {
+      "006": 1,
+      "020": 67
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_005_80355bb1a5:b5757a00",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "EntryPoint_ChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_80355bb1a5:6356934b",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "begin_2",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_80355bb1a5:12c7c68b",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "begin_3",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_80355bb1a5:6a1a9031",
+        "kind": "Logic_AND",
+        "label": "Logic_AND",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_80355bb1a5:f5424671",
+        "kind": "Global_GlobalVariableGetter",
+        "label": "Global_GlobalVariableGetter",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_80355bb1a5:d50ddb03",
+        "kind": "Global_GlobalVariableGetter",
+        "label": "Global_GlobalVariableGetter",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_80355bb1a5:3eef87b2",
+        "kind": "Logic_Math_GreaterThanOrEqual",
+        "label": "Logic_Math_GreaterThanOrEqual",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_80355bb1a5:fa6b8f40",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11201,
+        "annotation": "endpoint_chapter112_1",
+        "title_zh": "第三十九集 完",
+        "storyline_title_zh": "第三十九集 完"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11202,
+        "annotation": "endpoint_chapter112_2",
+        "title_zh": "第四十集 完",
+        "storyline_title_zh": "第四十集 完"
+      },
+      {
+        "kind": "EndPoint_FinalReport",
+        "endpoint_id": 11203,
+        "annotation": "endpoint_chapter112_3",
+        "title_zh": "第四十一集 千古女帝",
+        "storyline_title_zh": "【千古女帝】完"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 1207,
+        "annotation": "BE07",
+        "title_zh": "伍家军何在！",
+        "target_video_key": "CL050_020_021"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1202,
+        "annotation": "NE02。",
+        "title_zh": "母子之间",
+        "target_video_key": "CL020_020_008"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 1209,
+        "annotation": "BE09",
+        "title_zh": "梦魇沉沦",
+        "target_video_key": "CL090_020_028"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 1208,
+        "annotation": "BE08",
+        "title_zh": "盛朝徐影帝",
+        "target_video_key": "CL050_020_021"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1203,
+        "annotation": "NE03",
+        "title_zh": "婆媳之间",
+        "target_video_key": "CL020_020_008"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1204,
+        "annotation": "NE04",
+        "title_zh": "股东大会失败召开",
+        "target_video_key": "CL020_020_008"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 1205,
+        "annotation": "BE05",
+        "title_zh": "这么近那么远",
+        "target_video_key": "CL030_020_013"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 1206,
+        "annotation": "BE06",
+        "title_zh": "教孩子哪有不疯的",
+        "target_video_key": "CL040_020_016"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1211,
+        "annotation": "NE11",
+        "title_zh": "一步千秋",
+        "target_video_key": "CL160_020_063"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11201,
+        "annotation": "endpoint_chapter112_1",
+        "title_zh": "第三十九集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11202,
+        "annotation": "endpoint_chapter112_2",
+        "title_zh": "第四十集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_FinalReport",
+        "endpoint_id": 11203,
+        "annotation": "endpoint_chapter112_3",
+        "title_zh": "第四十一集 千古女帝",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1201,
+        "annotation": "NE01",
+        "title_zh": "无冕女皇的遗憾",
+        "target_video_key": "CL010_020_005"
+      }
+    ],
+    "reachable_from_start_count": 94
+  },
+  {
+    "storyline_id": "storyline_006_80355bb1a5",
+    "source_file": "storyline_006_80355bb1a5.json",
+    "node_count": 94,
+    "edge_count": 98,
+    "choice_edge_count": 34,
+    "node_kind_counts": {
+      "EndPoint_BadEnd": 5,
+      "EndPoint_FinalReport": 1,
+      "EndPoint_NormalEnd": 5,
+      "EndPoint_SubChapterReport": 2,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 2,
+      "Function_Storyline_If": 2,
+      "Getter_GetVideoKeyVariable_Sum": 1,
+      "Global_GlobalVariableGetter": 2,
+      "Global_GlobalVariableSetter": 2,
+      "Link_Lead": 1,
+      "Logic_AND": 1,
+      "Logic_Math_GreaterThanOrEqual": 1,
+      "PlayVideo_Ordinary": 46,
+      "PlayVideo_TraceBack": 8,
+      "ShowChoice": 14
+    },
+    "video_prefix_counts": {
+      "006": 1,
+      "020": 67
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_006_80355bb1a5:b5757a00",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "EntryPoint_ChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_80355bb1a5:6356934b",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "begin_2",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_80355bb1a5:12c7c68b",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "begin_3",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_80355bb1a5:6a1a9031",
+        "kind": "Logic_AND",
+        "label": "Logic_AND",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_80355bb1a5:f5424671",
+        "kind": "Global_GlobalVariableGetter",
+        "label": "Global_GlobalVariableGetter",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_80355bb1a5:d50ddb03",
+        "kind": "Global_GlobalVariableGetter",
+        "label": "Global_GlobalVariableGetter",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_80355bb1a5:3eef87b2",
+        "kind": "Logic_Math_GreaterThanOrEqual",
+        "label": "Logic_Math_GreaterThanOrEqual",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_80355bb1a5:fa6b8f40",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11201,
+        "annotation": "endpoint_chapter112_1",
+        "title_zh": "第三十九集 完",
+        "storyline_title_zh": "第三十九集 完"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11202,
+        "annotation": "endpoint_chapter112_2",
+        "title_zh": "第四十集 完",
+        "storyline_title_zh": "第四十集 完"
+      },
+      {
+        "kind": "EndPoint_FinalReport",
+        "endpoint_id": 11203,
+        "annotation": "endpoint_chapter112_3",
+        "title_zh": "第四十一集 千古女帝",
+        "storyline_title_zh": "【千古女帝】完"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 1207,
+        "annotation": "BE07",
+        "title_zh": "伍家军何在！",
+        "target_video_key": "CL050_020_021"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1202,
+        "annotation": "NE02。",
+        "title_zh": "母子之间",
+        "target_video_key": "CL020_020_008"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 1209,
+        "annotation": "BE09",
+        "title_zh": "梦魇沉沦",
+        "target_video_key": "CL090_020_028"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 1208,
+        "annotation": "BE08",
+        "title_zh": "盛朝徐影帝",
+        "target_video_key": "CL050_020_021"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1203,
+        "annotation": "NE03",
+        "title_zh": "婆媳之间",
+        "target_video_key": "CL020_020_008"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1204,
+        "annotation": "NE04",
+        "title_zh": "股东大会失败召开",
+        "target_video_key": "CL020_020_008"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 1205,
+        "annotation": "BE05",
+        "title_zh": "这么近那么远",
+        "target_video_key": "CL030_020_013"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 1206,
+        "annotation": "BE06",
+        "title_zh": "教孩子哪有不疯的",
+        "target_video_key": "CL040_020_016"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1211,
+        "annotation": "NE11",
+        "title_zh": "一步千秋",
+        "target_video_key": "CL160_020_063"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11201,
+        "annotation": "endpoint_chapter112_1",
+        "title_zh": "第三十九集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11202,
+        "annotation": "endpoint_chapter112_2",
+        "title_zh": "第四十集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_FinalReport",
+        "endpoint_id": 11203,
+        "annotation": "endpoint_chapter112_3",
+        "title_zh": "第四十一集 千古女帝",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1201,
+        "annotation": "NE01",
+        "title_zh": "无冕女皇的遗憾",
+        "target_video_key": "CL010_020_005"
+      }
+    ],
+    "reachable_from_start_count": 94
+  },
+  {
+    "storyline_id": "storyline_003_2ab7b312cd",
+    "source_file": "storyline_003_2ab7b312cd.json",
+    "node_count": 52,
+    "edge_count": 56,
+    "choice_edge_count": 22,
+    "node_kind_counts": {
+      "EndPoint_BadEnd": 8,
+      "EndPoint_ChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "PlayVideo_Ordinary": 30,
+      "PlayVideo_TraceBack": 3,
+      "ShowChoice": 9
+    },
+    "video_prefix_counts": {
+      "009": 42
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_003_2ab7b312cd:a6888b25",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "回宫计划\n开始",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10101,
+        "annotation": "本章结束",
+        "title_zh": "第十七集 盛世新篇章",
+        "storyline_title_zh": "前往【吃人的后宫2.0】"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 102,
+        "annotation": "送上人头",
+        "title_zh": "热心肠萧舒妃",
+        "target_video_key": "CL040_009_022"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 107,
+        "annotation": "成了冥帝婢女",
+        "title_zh": "成为冥帝婢女",
+        "target_video_key": "CL100_009_047"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 108,
+        "annotation": "阎王的offer",
+        "title_zh": "顺利入职地府",
+        "target_video_key": "CL100_009_047"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10101,
+        "annotation": "本章结束",
+        "title_zh": "第十七集 盛世新篇章",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 104,
+        "annotation": "BE04",
+        "title_zh": "回宫面试失败",
+        "target_video_key": "CL070_009_025"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 109,
+        "annotation": "BE05",
+        "title_zh": "感业寺年度勇者",
+        "target_video_key": "CL090_009_041"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 110,
+        "annotation": "BE06",
+        "title_zh": "死于背调",
+        "target_video_key": "CL090_009_041"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 111,
+        "annotation": "BE03",
+        "title_zh": "萧舒妃2.0版本",
+        "target_video_key": "CL070_009_025"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 101,
+        "annotation": "盛世女武神",
+        "title_zh": "网暴之后",
+        "target_video_key": "CL020_009_009"
+      }
+    ],
+    "reachable_from_start_count": 52
+  },
+  {
+    "storyline_id": "storyline_009_a11568e081",
+    "source_file": "storyline_009_a11568e081.json",
+    "node_count": 165,
+    "edge_count": 173,
+    "choice_edge_count": 52,
+    "node_kind_counts": {
+      "EndPoint_BadEnd": 15,
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_HappyEnd": 1,
+      "EndPoint_SubChapterReport": 2,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 2,
+      "Function_If": 3,
+      "Function_Storyline_If": 4,
+      "Getter_GetVideoKeyVariable_Boloean": 7,
+      "Getter_GetVideoKeyVariable_Sum": 2,
+      "Global_GlobalVariableGetter": 1,
+      "Link_Lead": 2,
+      "Logic_Math_Equal": 1,
+      "Logic_Math_LessThan": 1,
+      "PlayVideo_Ordinary": 90,
+      "PlayVideo_TraceBack": 9,
+      "ShowChoice": 23
+    },
+    "video_prefix_counts": {
+      "009": 1,
+      "010": 121
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_009_a11568e081:885ade88",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "回宫计划\n开始",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_a11568e081:de2eca8f",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "chapter102_3",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_a11568e081:23aa1fcd",
+        "kind": "Logic_Math_LessThan",
+        "label": "Logic_Math_LessThan",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_a11568e081:531502c2",
+        "kind": "Global_GlobalVariableGetter",
+        "label": "Global_GlobalVariableGetter",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_a11568e081:67630338",
+        "kind": "Logic_Math_Equal",
+        "label": "Logic_Math_Equal",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_a11568e081:421f8617",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_a11568e081:29acc99c",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_a11568e081:4d833e06",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_a11568e081:bc31956f",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_a11568e081:34f090e5",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_a11568e081:af03c4eb",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_a11568e081:457440b0",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_a11568e081:1779ae8a",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_a11568e081:a0b02e17",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_a11568e081:c5799e27",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10202,
+        "annotation": "小章节2",
+        "title_zh": "第十九集 完",
+        "storyline_title_zh": "第十九集 完"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10203,
+        "annotation": "",
+        "title_zh": "第二十集 吃人的后宫2.0",
+        "storyline_title_zh": "前往【多余的母妃】"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10201,
+        "annotation": "小章节1",
+        "title_zh": "第十八集 完",
+        "storyline_title_zh": "第十八集 完"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 201,
+        "annotation": "BE01请皇后做主，严惩刁奴。",
+        "title_zh": "你就是那个刁奴~",
+        "target_video_key": "CL050_010_013"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 202,
+        "annotation": "BE02",
+        "title_zh": "试用期未满",
+        "target_video_key": "CL050_010_013"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 203,
+        "annotation": "BE04",
+        "title_zh": "母凭子贵",
+        "target_video_key": "CL100_010_032"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 204,
+        "annotation": "BE03",
+        "title_zh": "湖底埋骨房",
+        "target_video_key": "CL100_010_032"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 205,
+        "annotation": "BE05",
+        "title_zh": "地府绿色尊贵会员通道",
+        "target_video_key": "CL110_010_036"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 208,
+        "annotation": "BE08",
+        "title_zh": "霸道皇后",
+        "target_video_key": "CL200_010_064"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 209,
+        "annotation": "BE09",
+        "title_zh": "痒妃",
+        "target_video_key": "CL200_010_064"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 210,
+        "annotation": "BE09",
+        "title_zh": "痒妃",
+        "target_video_key": "CL200_010_064"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10202,
+        "annotation": "小章节2",
+        "title_zh": "第十九集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 212,
+        "annotation": "",
+        "title_zh": "失恩寡助",
+        "target_video_key": "CL270_010_105"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 213,
+        "annotation": "水中亡魂",
+        "title_zh": "埋骨湖底",
+        "target_video_key": "Q280_010_113"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 214,
+        "annotation": "追思蕊儿而去",
+        "title_zh": "皇后的专属宠爱",
+        "target_video_key": "CL290_010_116"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 215,
+        "annotation": "BE14追思蕊儿而去",
+        "title_zh": "皇后的专属宠爱",
+        "target_video_key": "CL290_010_116"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 217,
+        "annotation": "BE17",
+        "title_zh": "地府双人游",
+        "target_video_key": "CL300_010_120"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 219,
+        "annotation": "",
+        "title_zh": "你的诡蜜是鬼见愁",
+        "target_video_key": "CL310_010_125"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10203,
+        "annotation": "",
+        "title_zh": "第二十集 吃人的后宫2.0",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10201,
+        "annotation": "小章节1",
+        "title_zh": "第十八集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_HappyEnd",
+        "endpoint_id": 211,
+        "annotation": "HE10",
+        "title_zh": "盛世锅王",
+        "target_video_key": "CL220_010_078"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 206,
+        "annotation": "be06",
+        "title_zh": "《笑死》",
+        "target_video_key": "CL160_010_143"
+      }
+    ],
+    "reachable_from_start_count": 165
+  },
+  {
+    "storyline_id": "storyline_011_2ab7b312cd",
+    "source_file": "storyline_011_2ab7b312cd.json",
+    "node_count": 52,
+    "edge_count": 56,
+    "choice_edge_count": 22,
+    "node_kind_counts": {
+      "EndPoint_BadEnd": 8,
+      "EndPoint_ChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "PlayVideo_Ordinary": 30,
+      "PlayVideo_TraceBack": 3,
+      "ShowChoice": 9
+    },
+    "video_prefix_counts": {
+      "009": 42
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_011_2ab7b312cd:a6888b25",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "回宫计划\n开始",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10101,
+        "annotation": "本章结束",
+        "title_zh": "第十七集 盛世新篇章",
+        "storyline_title_zh": "前往【吃人的后宫2.0】"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 102,
+        "annotation": "送上人头",
+        "title_zh": "热心肠萧舒妃",
+        "target_video_key": "CL040_009_022"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 107,
+        "annotation": "成了冥帝婢女",
+        "title_zh": "成为冥帝婢女",
+        "target_video_key": "CL100_009_047"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 108,
+        "annotation": "阎王的offer",
+        "title_zh": "顺利入职地府",
+        "target_video_key": "CL100_009_047"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10101,
+        "annotation": "本章结束",
+        "title_zh": "第十七集 盛世新篇章",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 104,
+        "annotation": "BE04",
+        "title_zh": "回宫面试失败",
+        "target_video_key": "CL070_009_025"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 109,
+        "annotation": "BE05",
+        "title_zh": "感业寺年度勇者",
+        "target_video_key": "CL090_009_041"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 110,
+        "annotation": "BE06",
+        "title_zh": "死于背调",
+        "target_video_key": "CL090_009_041"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 111,
+        "annotation": "BE03",
+        "title_zh": "萧舒妃2.0版本",
+        "target_video_key": "CL070_009_025"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 101,
+        "annotation": "盛世女武神",
+        "title_zh": "网暴之后",
+        "target_video_key": "CL020_009_009"
+      }
+    ],
+    "reachable_from_start_count": 52
+  },
+  {
+    "storyline_id": "storyline_014_a546b85c7a",
+    "source_file": "storyline_014_a546b85c7a.json",
+    "node_count": 40,
+    "edge_count": 43,
+    "choice_edge_count": 14,
+    "node_kind_counts": {
+      "EndPoint_BadEnd": 7,
+      "EndPoint_ChapterReport": 2,
+      "EntryPoint_ChapterStart": 1,
+      "PlayVideo_Ordinary": 21,
+      "PlayVideo_TraceBack": 4,
+      "ShowChoice": 5
+    },
+    "video_prefix_counts": {
+      "010": 1,
+      "020": 10,
+      "040": 9,
+      "059": 1,
+      "250": 2,
+      "300": 7
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_014_a546b85c7a:aa956265",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "女帝篇序",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 99901,
+        "annotation": "进入新世界线",
+        "title_zh": "前往【新世界线】",
+        "storyline_title_zh": "前往【新世界线】"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 99902,
+        "annotation": "进入下部女帝线",
+        "title_zh": "前往【女帝线】",
+        "storyline_title_zh": "前往【女帝线】"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 99901,
+        "annotation": "进入新世界线",
+        "title_zh": "前往【新世界线】",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 9906,
+        "annotation": "BE11 1V1收割时刻\n你刺杀失败，被刘熙毒死",
+        "title_zh": "1V1收割时刻",
+        "target_video_key": "Q030_X_020_034"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 9905,
+        "annotation": "BE10 1V1收割时刻\n你夺簪失败，被刘熙毒死",
+        "title_zh": "1V1收割时刻",
+        "target_video_key": "Q020_X_020_031"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 9901,
+        "annotation": "BE29 人性化熙姐\n你向刘熙求饶，被刘熙毒死",
+        "title_zh": "人性化熙姐",
+        "target_video_key": "CL051_X_020_027"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 9902,
+        "annotation": "BE28 宿命般的牡丹\n你放弃抵抗，被刘熙毒死",
+        "title_zh": "宿命般的牡丹",
+        "target_video_key": "CL051_X_020_027"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 9903,
+        "annotation": "BE03被防爆的你\n当晚，你被刘熙杀死",
+        "title_zh": "被防爆的你",
+        "target_video_key": "CL060_X_300_048"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 9904,
+        "annotation": "BE53被防爆的你\n当晚，你被刘熙杀死",
+        "title_zh": "被防爆的你",
+        "target_video_key": "CL060_X_300_048"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 99902,
+        "annotation": "进入下部女帝线",
+        "title_zh": "前往【女帝线】",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 9907,
+        "annotation": "BE54被防爆的你\n当晚，你被刘熙杀死",
+        "title_zh": "被防爆的你",
+        "target_video_key": "Q170_X_300_052"
+      }
+    ],
+    "reachable_from_start_count": 40
+  },
+  {
+    "storyline_id": "storyline_001_2921e3d4be",
+    "source_file": "storyline_001_2921e3d4be.json",
+    "node_count": 68,
+    "edge_count": 72,
+    "choice_edge_count": 25,
+    "node_kind_counts": {
+      "EndPoint_BadEnd": 6,
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_HappyEnd": 1,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 1,
+      "Getter_GetVideoKeyVariable_Boloean": 1,
+      "PlayVideo_Ordinary": 38,
+      "PlayVideo_TraceBack": 5,
+      "ShowChoice": 12
+    },
+    "video_prefix_counts": {
+      "012": 55
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_001_2921e3d4be:d2fb983c",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "回宫计划\n开始",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_001_2921e3d4be:57102006",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_001_2921e3d4be:8348eb78",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10402,
+        "annotation": "本章结束",
+        "title_zh": "第二十四集 九嫔之首",
+        "storyline_title_zh": "前往【步入朝堂】"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10401,
+        "annotation": "小结算1",
+        "title_zh": "第二十三集 完",
+        "storyline_title_zh": "第二十三集 完"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10402,
+        "annotation": "本章结束",
+        "title_zh": "第二十四集 九嫔之首",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 401,
+        "annotation": "BE01",
+        "title_zh": "羹迟但到",
+        "target_video_key": "CL020_012_004"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 402,
+        "annotation": "BE02",
+        "title_zh": "生娃送皇后",
+        "target_video_key": "CL060_012_021"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 403,
+        "annotation": "BE03",
+        "title_zh": "是男是女都好",
+        "target_video_key": "CL070_012_025"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 405,
+        "annotation": "BE05",
+        "title_zh": "逃不出她的手掌心",
+        "target_video_key": "C090_012_033"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 406,
+        "annotation": "BE06",
+        "title_zh": "姨母的三颗心",
+        "target_video_key": "CL110_012_040"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10401,
+        "annotation": "小结算1",
+        "title_zh": "第二十三集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_HappyEnd",
+        "endpoint_id": 404,
+        "annotation": "HE04",
+        "title_zh": "盛世加载中",
+        "target_video_key": "CL080_012_029"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 407,
+        "annotation": "BE07",
+        "title_zh": "羹迟但到",
+        "target_video_key": "CL011_012_060"
+      }
+    ],
+    "reachable_from_start_count": 68
+  },
+  {
+    "storyline_id": "storyline_012_6d5e9e3c52",
+    "source_file": "storyline_012_6d5e9e3c52.json",
+    "node_count": 139,
+    "edge_count": 147,
+    "choice_edge_count": 44,
+    "node_kind_counts": {
+      "EndPoint_ChapterReport": 2,
+      "EndPoint_NormalEnd": 7,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_DynamicVideo": 2,
+      "Function_Storyline_If": 7,
+      "Getter_GetArray": 3,
+      "Getter_GetVideoKeyVariable_Boloean": 4,
+      "Getter_GetVideoKeyVariable_Sum": 3,
+      "Link_Lead": 1,
+      "Logic_Math_GreaterThanOrEqual": 2,
+      "Logic_Math_LessThan": 1,
+      "Logic_NOT": 2,
+      "Logic_OR": 2,
+      "PlayVideo_Ordinary": 77,
+      "PlayVideo_TraceBack": 6,
+      "ShowChoice": 17
+    },
+    "video_prefix_counts": {
+      "013": 99,
+      "106": 1
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_012_6d5e9e3c52:4a46c4f1",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "回宫计划\n开始",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:f2e3088e",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:bfa64bc8",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:f28fde8a",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:dd86392c",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:7897f073",
+        "kind": "Logic_OR",
+        "label": "Logic_OR",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:30040528",
+        "kind": "Logic_OR",
+        "label": "Logic_OR",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:2b5d4f6c",
+        "kind": "Logic_Math_GreaterThanOrEqual",
+        "label": "Logic_Math_GreaterThanOrEqual",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:1f07303d",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:aa1a2751",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:1cbbe373",
+        "kind": "Logic_Math_GreaterThanOrEqual",
+        "label": "Logic_Math_GreaterThanOrEqual",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:69ccfaee",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:282b7779",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:ab8ddcae",
+        "kind": "Getter_GetArray",
+        "label": "Getter_GetArray",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:94a83cc7",
+        "kind": "Getter_GetArray",
+        "label": "Getter_GetArray",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:c52b5980",
+        "kind": "Getter_GetArray",
+        "label": "Getter_GetArray",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:5583d34e",
+        "kind": "Logic_NOT",
+        "label": "Logic_NOT",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:0d75ca7b",
+        "kind": "Logic_NOT",
+        "label": "Logic_NOT",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_012_6d5e9e3c52:9dd65659",
+        "kind": "Logic_Math_LessThan",
+        "label": "Logic_Math_LessThan",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10502,
+        "annotation": "本章结束",
+        "title_zh": "第二十六集 步入朝堂",
+        "storyline_title_zh": "前往【后位争夺战】"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10501,
+        "annotation": "小结算1",
+        "title_zh": "第二十五集 完",
+        "storyline_title_zh": "第二十五集 完"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10503,
+        "annotation": "本章结束",
+        "title_zh": "第二十六集 步入朝堂",
+        "storyline_title_zh": "前往【后位争夺战】"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 501,
+        "annotation": "NE01",
+        "title_zh": "止步饭搭子",
+        "target_video_key": "CL030_013_020"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 506,
+        "annotation": "NE07",
+        "title_zh": "政斗新手玩家",
+        "target_video_key": "CL090_013_039"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 507,
+        "annotation": "NE06",
+        "title_zh": "碳妃出道",
+        "target_video_key": "CL090_013_039"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 508,
+        "annotation": "NE08",
+        "title_zh": "被防爆的你",
+        "target_video_key": "CL110_013_043"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 509,
+        "annotation": "NE09",
+        "title_zh": "当罢工遇上霸总",
+        "target_video_key": "CL140_013_050"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 510,
+        "annotation": "NE10",
+        "title_zh": "益府没带闪现",
+        "target_video_key": "CL140_013_050"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10502,
+        "annotation": "本章结束",
+        "title_zh": "第二十六集 步入朝堂",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10501,
+        "annotation": "小结算1",
+        "title_zh": "第二十五集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 511,
+        "annotation": "511",
+        "title_zh": "止步昭仪",
+        "target_video_key": "CL060_013_027"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10503,
+        "annotation": "本章结束",
+        "title_zh": "第二十六集 步入朝堂",
+        "target_video_key": null
+      }
+    ],
+    "reachable_from_start_count": 139
+  },
+  {
+    "storyline_id": "storyline_002_16cbaf3d79",
+    "source_file": "storyline_002_16cbaf3d79.json",
+    "node_count": 96,
+    "edge_count": 91,
+    "choice_edge_count": 31,
+    "node_kind_counts": {
+      "EndPoint_BadEnd": 8,
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_NormalEnd": 8,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 3,
+      "Getter_GetVideoKeyVariable_Boloean": 1,
+      "Getter_GetVideoKeyVariable_Sum": 1,
+      "Global_GlobalVariableGetter": 3,
+      "Global_GlobalVariableSetter": 3,
+      "Link_Lead": 1,
+      "Logic_AND": 2,
+      "Logic_Math_Equal": 1,
+      "PlayVideo_Ordinary": 43,
+      "PlayVideo_TraceBack": 4,
+      "ShowChoice": 14
+    },
+    "video_prefix_counts": {
+      "014": 61
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_002_16cbaf3d79:fff8c3d2",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "chapter106_BeginPlay",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_002_16cbaf3d79:ce4cd504",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_002_16cbaf3d79:7cd701a7",
+        "kind": "Logic_Math_Equal",
+        "label": "Logic_Math_Equal",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_002_16cbaf3d79:c8c014e5",
+        "kind": "Logic_AND",
+        "label": "Logic_AND",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_002_16cbaf3d79:74be3c3d",
+        "kind": "Logic_AND",
+        "label": "Logic_AND",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_002_16cbaf3d79:3d405b23",
+        "kind": "Global_GlobalVariableGetter",
+        "label": "Global_GlobalVariableGetter",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_002_16cbaf3d79:782eb945",
+        "kind": "Global_GlobalVariableGetter",
+        "label": "Global_GlobalVariableGetter",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_002_16cbaf3d79:3e6333fb",
+        "kind": "Global_GlobalVariableGetter",
+        "label": "Global_GlobalVariableGetter",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_002_16cbaf3d79:0eb1d05a",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_002_16cbaf3d79:47cceca0",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10601,
+        "annotation": "endpoint_chapter106_1",
+        "title_zh": "第二十七集 完",
+        "storyline_title_zh": "第二十七集 完"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10602,
+        "annotation": "endpoint_chapter106_2",
+        "title_zh": "第二十八集 后位争夺战",
+        "storyline_title_zh": "前往【母仪天下】"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 601,
+        "annotation": "BE01",
+        "title_zh": "魂断乡间",
+        "target_video_key": "CL010_014_002"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 602,
+        "annotation": "BE02",
+        "title_zh": "王皇后特批经费",
+        "target_video_key": "CL020_014_008"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 603,
+        "annotation": "BE03",
+        "title_zh": "王皇后的预约",
+        "target_video_key": "CL020_014_008"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 604,
+        "annotation": "BE04",
+        "title_zh": "生产不易",
+        "target_video_key": "Q140_014_012"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 605,
+        "annotation": "BE05",
+        "title_zh": "她看到你了",
+        "target_video_key": "CL030_014_015"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 606,
+        "annotation": "BE06",
+        "title_zh": "破案的神",
+        "target_video_key": "CL040_014_018"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 607,
+        "annotation": "BE07",
+        "title_zh": "破案的神",
+        "target_video_key": "CL040_014_018"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10601,
+        "annotation": "endpoint_chapter106_1",
+        "title_zh": "第二十七集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 608,
+        "annotation": "BE08",
+        "title_zh": "胜败乃兵家常事",
+        "target_video_key": "CL090_014_039"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 609,
+        "annotation": "BE09",
+        "title_zh": "胜败乃兵家常事",
+        "target_video_key": "CL090_014_039"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 610,
+        "annotation": "BE10",
+        "title_zh": "掌控舆情的女人",
+        "target_video_key": "CL100_014_043"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 611,
+        "annotation": "BE11",
+        "title_zh": "虚情假意姐妹组合",
+        "target_video_key": "CL110_014_046"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 612,
+        "annotation": "BE12",
+        "title_zh": "司马照之心",
+        "target_video_key": "CL120_014_049"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 613,
+        "annotation": "BE13",
+        "title_zh": "《入宫必修课》",
+        "target_video_key": "CL130_014_052"
+      },
+      {
+        "kind": "EndPoint_BadEnd",
+        "endpoint_id": 614,
+        "annotation": "BE14",
+        "title_zh": "莫影的祝福",
+        "target_video_key": "CL150_014_058"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10602,
+        "annotation": "endpoint_chapter106_2",
+        "title_zh": "第二十八集 后位争夺战",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 615,
+        "annotation": "NE15",
+        "title_zh": "快别跟孩子置气！",
+        "target_video_key": "CL100_014_043"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 616,
+        "annotation": "NE16",
+        "title_zh": "萧舒妃防备+99",
+        "target_video_key": "CL101_014_091"
+      }
+    ],
+    "reachable_from_start_count": 96
+  },
+  {
+    "storyline_id": "storyline_002_f995c3c3da",
+    "source_file": "storyline_002_f995c3c3da.json",
+    "node_count": 63,
+    "edge_count": 62,
+    "choice_edge_count": 21,
+    "node_kind_counts": {
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_HappyEnd": 1,
+      "EndPoint_NormalEnd": 9,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 1,
+      "Getter_GetVideoKeyVariable_Sum": 1,
+      "Logic_Math_LessThan": 1,
+      "PlayVideo_Ordinary": 35,
+      "PlayVideo_TraceBack": 2,
+      "ShowChoice": 9
+    },
+    "video_prefix_counts": {
+      "015": 45,
+      "030": 1
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_002_f995c3c3da:148c48da",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "EntryPoint_ChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_002_f995c3c3da:92e15d2b",
+        "kind": "Logic_Math_LessThan",
+        "label": "Logic_Math_LessThan",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_002_f995c3c3da:376d6c17",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_002_f995c3c3da:25fdbd0c",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10702,
+        "annotation": "end_chapter107_2",
+        "title_zh": "第三十集 母仪天下",
+        "storyline_title_zh": "前往【权力的盛宴】"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10701,
+        "annotation": "小结算1",
+        "title_zh": "第二十九集 完",
+        "storyline_title_zh": "第二十九集 完"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 706,
+        "annotation": "BE01",
+        "title_zh": "没有永远的敌人",
+        "target_video_key": "CL050_015_025"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 707,
+        "annotation": "BE03",
+        "title_zh": "这么近那么远",
+        "target_video_key": "CL050_015_025"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10702,
+        "annotation": "end_chapter107_2",
+        "title_zh": "第三十集 母仪天下",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10701,
+        "annotation": "小结算1",
+        "title_zh": "第二十九集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 708,
+        "annotation": "NE07",
+        "title_zh": "飞升失败",
+        "target_video_key": "C060_015_029"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 709,
+        "annotation": "NE08",
+        "title_zh": "飞升失败",
+        "target_video_key": "CL080_015_037"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 710,
+        "annotation": "NE09",
+        "title_zh": "飞升失败",
+        "target_video_key": "CL080_015_037"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 711,
+        "annotation": "NE10",
+        "title_zh": "飞升失败",
+        "target_video_key": "C060_015_029"
+      },
+      {
+        "kind": "EndPoint_HappyEnd",
+        "endpoint_id": 701,
+        "annotation": "HE11",
+        "title_zh": "共坠无间",
+        "target_video_key": "C010_015_002"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 702,
+        "annotation": "BE11",
+        "title_zh": "“正义的狂欢”",
+        "target_video_key": "CL011_015_061"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 703,
+        "annotation": "BE04",
+        "title_zh": "一撞功成",
+        "target_video_key": "C030_015_013"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 705,
+        "annotation": "BE05",
+        "title_zh": "一撞功成",
+        "target_video_key": "CL040_015_019"
+      }
+    ],
+    "reachable_from_start_count": 63
+  },
+  {
+    "storyline_id": "storyline_013_f995c3c3da",
+    "source_file": "storyline_013_f995c3c3da.json",
+    "node_count": 63,
+    "edge_count": 62,
+    "choice_edge_count": 21,
+    "node_kind_counts": {
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_HappyEnd": 1,
+      "EndPoint_NormalEnd": 9,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 1,
+      "Getter_GetVideoKeyVariable_Sum": 1,
+      "Logic_Math_LessThan": 1,
+      "PlayVideo_Ordinary": 35,
+      "PlayVideo_TraceBack": 2,
+      "ShowChoice": 9
+    },
+    "video_prefix_counts": {
+      "015": 45,
+      "030": 1
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_013_f995c3c3da:148c48da",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "EntryPoint_ChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_013_f995c3c3da:92e15d2b",
+        "kind": "Logic_Math_LessThan",
+        "label": "Logic_Math_LessThan",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_013_f995c3c3da:376d6c17",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_013_f995c3c3da:25fdbd0c",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10702,
+        "annotation": "end_chapter107_2",
+        "title_zh": "第三十集 母仪天下",
+        "storyline_title_zh": "前往【权力的盛宴】"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10701,
+        "annotation": "小结算1",
+        "title_zh": "第二十九集 完",
+        "storyline_title_zh": "第二十九集 完"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 706,
+        "annotation": "BE01",
+        "title_zh": "没有永远的敌人",
+        "target_video_key": "CL050_015_025"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 707,
+        "annotation": "BE03",
+        "title_zh": "这么近那么远",
+        "target_video_key": "CL050_015_025"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10702,
+        "annotation": "end_chapter107_2",
+        "title_zh": "第三十集 母仪天下",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10701,
+        "annotation": "小结算1",
+        "title_zh": "第二十九集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 708,
+        "annotation": "NE07",
+        "title_zh": "飞升失败",
+        "target_video_key": "C060_015_029"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 709,
+        "annotation": "NE08",
+        "title_zh": "飞升失败",
+        "target_video_key": "CL080_015_037"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 710,
+        "annotation": "NE09",
+        "title_zh": "飞升失败",
+        "target_video_key": "CL080_015_037"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 711,
+        "annotation": "NE10",
+        "title_zh": "飞升失败",
+        "target_video_key": "C060_015_029"
+      },
+      {
+        "kind": "EndPoint_HappyEnd",
+        "endpoint_id": 701,
+        "annotation": "HE11",
+        "title_zh": "共坠无间",
+        "target_video_key": "C010_015_002"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 702,
+        "annotation": "BE11",
+        "title_zh": "“正义的狂欢”",
+        "target_video_key": "CL011_015_061"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 703,
+        "annotation": "BE04",
+        "title_zh": "一撞功成",
+        "target_video_key": "C030_015_013"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 705,
+        "annotation": "BE05",
+        "title_zh": "一撞功成",
+        "target_video_key": "CL040_015_019"
+      }
+    ],
+    "reachable_from_start_count": 63
+  },
+  {
+    "storyline_id": "storyline_015_9a7da27f56",
+    "source_file": "storyline_015_9a7da27f56.json",
+    "node_count": 118,
+    "edge_count": 133,
+    "choice_edge_count": 50,
+    "node_kind_counts": {
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_NormalEnd": 7,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 2,
+      "Function_Storyline_If": 4,
+      "Getter_GetVideoKeyVariable_Boloean": 3,
+      "Getter_GetVideoKeyVariable_Sum": 2,
+      "Link_Lead": 1,
+      "Logic_Math_LessThan": 2,
+      "Logic_OR": 1,
+      "PlayVideo_Ordinary": 70,
+      "PlayVideo_TraceBack": 2,
+      "ShowChoice": 22
+    },
+    "video_prefix_counts": {
+      "016": 94
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_015_9a7da27f56:eee980e1",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "主线·老16集开始",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_015_9a7da27f56:0bcc0116",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "下集开始",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_015_9a7da27f56:1f133c92",
+        "kind": "Logic_Math_LessThan",
+        "label": "Logic_Math_LessThan",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_015_9a7da27f56:a4a6bc9e",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_015_9a7da27f56:479dd042",
+        "kind": "Logic_Math_LessThan",
+        "label": "Logic_Math_LessThan",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_015_9a7da27f56:f9c37672",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_015_9a7da27f56:a6b9d82e",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_015_9a7da27f56:f54d08e5",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_015_9a7da27f56:9b5102d3",
+        "kind": "Logic_OR",
+        "label": "Logic_OR",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_015_9a7da27f56:b22e6ea1",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10801,
+        "annotation": "endpoint_chapter108_1",
+        "title_zh": "第三十一集 完",
+        "storyline_title_zh": "第三十一集 完"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10802,
+        "annotation": "endpoint_chapter108_2",
+        "title_zh": "第三十二集 权力的盛宴",
+        "storyline_title_zh": "前往【二圣临朝】"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 801,
+        "annotation": "NE01",
+        "title_zh": "时代的双标",
+        "target_video_key": "C010_016_002"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 804,
+        "annotation": "NE04",
+        "title_zh": "满朝大脑宕机了",
+        "target_video_key": "CL110_016_047"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 805,
+        "annotation": "NE05",
+        "title_zh": "诡异的组合",
+        "target_video_key": "CL110_016_047"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 802,
+        "annotation": "NE02",
+        "title_zh": "敌方团魂燃烧",
+        "target_video_key": "C010_016_002"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 803,
+        "annotation": "NE03",
+        "title_zh": "朝中的“贤臣”们",
+        "target_video_key": "CL100_016_044"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 806,
+        "annotation": "NE06 ",
+        "title_zh": "双向救赎",
+        "target_video_key": "CL030_016_010"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 807,
+        "annotation": "NE07 ",
+        "title_zh": "终身黑锅成就奖",
+        "target_video_key": "CL130_016_058"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10801,
+        "annotation": "endpoint_chapter108_1",
+        "title_zh": "第三十一集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10802,
+        "annotation": "endpoint_chapter108_2",
+        "title_zh": "第三十二集 权力的盛宴",
+        "target_video_key": null
+      }
+    ],
+    "reachable_from_start_count": 118
+  },
+  {
+    "storyline_id": "storyline_016_8bd250145c",
+    "source_file": "storyline_016_8bd250145c.json",
+    "node_count": 59,
+    "edge_count": 56,
+    "choice_edge_count": 16,
+    "node_kind_counts": {
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_NormalEnd": 11,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 2,
+      "Getter_GetVideoKeyVariable_Boloean": 2,
+      "PlayVideo_Ordinary": 32,
+      "PlayVideo_TraceBack": 2,
+      "ShowChoice": 6
+    },
+    "video_prefix_counts": {
+      "017": 40
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_016_8bd250145c:1ef38770",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "上集开始",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_016_8bd250145c:b94ab0be",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_016_8bd250145c:21c0f2af",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_016_8bd250145c:bc97cbac",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10902,
+        "annotation": "endpoint_chapter109_2",
+        "title_zh": "第三十四集 二圣临朝",
+        "storyline_title_zh": "前往【帝后之间】"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10901,
+        "annotation": "endpoint_chapter109_1",
+        "title_zh": "第三十三集 完",
+        "storyline_title_zh": "第三十三集 完"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 906,
+        "annotation": "NE05",
+        "title_zh": "被追责的皇后",
+        "target_video_key": "CL040_017_027"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 910,
+        "annotation": "NE09",
+        "title_zh": " 自毁长城",
+        "target_video_key": "CL070_017_041"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 901,
+        "annotation": "NE01",
+        "title_zh": "从众的代价",
+        "target_video_key": "CL010_017_012"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 902,
+        "annotation": "NE02",
+        "title_zh": "退休通知函",
+        "target_video_key": "CL020_017_015"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 911,
+        "annotation": "NE10",
+        "title_zh": "罪不至死",
+        "target_video_key": "CL070_017_041"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 903,
+        "annotation": "NE03",
+        "title_zh": "退休通知函",
+        "target_video_key": "CL020_017_015"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 907,
+        "annotation": "NE06",
+        "title_zh": "被追责的皇后",
+        "target_video_key": "CL050_017_031"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 908,
+        "annotation": "NE07",
+        "title_zh": "拉拢的意义",
+        "target_video_key": "CL060_017_035"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 909,
+        "annotation": "NE08",
+        "title_zh": "士可杀不可辱",
+        "target_video_key": "CL060_017_035"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 905,
+        "annotation": "NE11",
+        "title_zh": "威不足以服众",
+        "target_video_key": "CL080_016_032"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 10902,
+        "annotation": "endpoint_chapter109_2",
+        "title_zh": "第三十四集 二圣临朝",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 10901,
+        "annotation": "endpoint_chapter109_1",
+        "title_zh": "第三十三集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 912,
+        "annotation": "NE16",
+        "title_zh": " 被追责的皇后",
+        "target_video_key": "CL050_017_031"
+      }
+    ],
+    "reachable_from_start_count": 59
+  },
+  {
+    "storyline_id": "storyline_004_f7ecc9aff2",
+    "source_file": "storyline_004_f7ecc9aff2.json",
+    "node_count": 128,
+    "edge_count": 122,
+    "choice_edge_count": 38,
+    "node_kind_counts": {
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_HappyEnd": 1,
+      "EndPoint_NormalEnd": 11,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 6,
+      "Getter_GetVideoKeyVariable_Boloean": 10,
+      "Getter_GetVideoKeyVariable_Sum": 3,
+      "Logic_AND": 3,
+      "Logic_Math_GreaterThanOrEqual": 2,
+      "Logic_Math_LessThanOrEqual": 1,
+      "Logic_NOT": 1,
+      "Logic_OR": 1,
+      "PlayVideo_Ordinary": 66,
+      "PlayVideo_TraceBack": 2,
+      "ShowChoice": 17
+    },
+    "video_prefix_counts": {
+      "018": 85
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_004_f7ecc9aff2:5aed6a85",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "九集下开始",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:9a630dbd",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:df5518bb",
+        "kind": "Logic_Math_GreaterThanOrEqual",
+        "label": "Logic_Math_GreaterThanOrEqual",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:06047052",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:c0866b6d",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:692c7359",
+        "kind": "Logic_OR",
+        "label": "Logic_OR",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:caaccc2f",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:7e4e243c",
+        "kind": "Logic_NOT",
+        "label": "Logic_NOT",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:de5d0efe",
+        "kind": "Logic_Math_GreaterThanOrEqual",
+        "label": "Logic_Math_GreaterThanOrEqual",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:7ec49b77",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:586a07b8",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:9eede6ef",
+        "kind": "Logic_AND",
+        "label": "Logic_AND",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:352ccd28",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:d3398686",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:d52a2078",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:b683ed69",
+        "kind": "Logic_Math_LessThanOrEqual",
+        "label": "Logic_Math_LessThanOrEqual",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:5fb13427",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:0871252f",
+        "kind": "Logic_AND",
+        "label": "Logic_AND",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:6e0a1fff",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_f7ecc9aff2:9468a594",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11001,
+        "annotation": "endpoint_chapter110_1",
+        "title_zh": "第三十五集 完",
+        "storyline_title_zh": "第三十五集 完"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 11002,
+        "annotation": "endpoint_chapter110_2",
+        "title_zh": "第三十六集 帝后之间",
+        "storyline_title_zh": "前往【日月同辉】"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1001,
+        "annotation": "NE01",
+        "title_zh": "突袭废后计划",
+        "target_video_key": "CL040_018_020"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1006,
+        "annotation": "NE06熄不灭的反对者\n一个上官宜不可怕，许多上官宜的追随者才可怕……",
+        "title_zh": "熄不灭的反对者",
+        "target_video_key": "CL080_018_035"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1008,
+        "annotation": "NE08",
+        "title_zh": "对抗路母子",
+        "target_video_key": "CL090_018_041"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1003,
+        "annotation": "NE03",
+        "title_zh": "未来已逝",
+        "target_video_key": "CL050_018_024"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1007,
+        "annotation": "NE07",
+        "title_zh": "同进退，共甘苦",
+        "target_video_key": "CL090_018_041"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11001,
+        "annotation": "endpoint_chapter110_1",
+        "title_zh": "第三十五集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 11002,
+        "annotation": "endpoint_chapter110_2",
+        "title_zh": "第三十六集 帝后之间",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_HappyEnd",
+        "endpoint_id": 1002,
+        "annotation": "HE02",
+        "title_zh": "退休夫妻",
+        "target_video_key": "CL040_018_020"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1009,
+        "annotation": "NE08",
+        "title_zh": "与子偕老",
+        "target_video_key": "CL120_018_055"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1010,
+        "annotation": "NE09",
+        "title_zh": "退一步便是退万步",
+        "target_video_key": "C130_018_058"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1011,
+        "annotation": "NE99",
+        "title_zh": "与子偕老",
+        "target_video_key": "CL070_018_031"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1012,
+        "annotation": "NE99 与子偕老",
+        "title_zh": "与子偕老",
+        "target_video_key": "CL131_018_079"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1013,
+        "annotation": "NE05",
+        "title_zh": "上官宜的阴魂",
+        "target_video_key": "CL072_018_085"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1014,
+        "annotation": "NE10",
+        "title_zh": "心软的神",
+        "target_video_key": "CL072_018_085"
+      }
+    ],
+    "reachable_from_start_count": 128
+  },
+  {
+    "storyline_id": "storyline_017_f7ecc9aff2",
+    "source_file": "storyline_017_f7ecc9aff2.json",
+    "node_count": 128,
+    "edge_count": 122,
+    "choice_edge_count": 38,
+    "node_kind_counts": {
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_HappyEnd": 1,
+      "EndPoint_NormalEnd": 11,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 6,
+      "Getter_GetVideoKeyVariable_Boloean": 10,
+      "Getter_GetVideoKeyVariable_Sum": 3,
+      "Logic_AND": 3,
+      "Logic_Math_GreaterThanOrEqual": 2,
+      "Logic_Math_LessThanOrEqual": 1,
+      "Logic_NOT": 1,
+      "Logic_OR": 1,
+      "PlayVideo_Ordinary": 66,
+      "PlayVideo_TraceBack": 2,
+      "ShowChoice": 17
+    },
+    "video_prefix_counts": {
+      "018": 85
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_017_f7ecc9aff2:5aed6a85",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "九集下开始",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:9a630dbd",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:df5518bb",
+        "kind": "Logic_Math_GreaterThanOrEqual",
+        "label": "Logic_Math_GreaterThanOrEqual",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:06047052",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:c0866b6d",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:692c7359",
+        "kind": "Logic_OR",
+        "label": "Logic_OR",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:caaccc2f",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:7e4e243c",
+        "kind": "Logic_NOT",
+        "label": "Logic_NOT",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:de5d0efe",
+        "kind": "Logic_Math_GreaterThanOrEqual",
+        "label": "Logic_Math_GreaterThanOrEqual",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:7ec49b77",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:586a07b8",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:9eede6ef",
+        "kind": "Logic_AND",
+        "label": "Logic_AND",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:352ccd28",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:d3398686",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:d52a2078",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:b683ed69",
+        "kind": "Logic_Math_LessThanOrEqual",
+        "label": "Logic_Math_LessThanOrEqual",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:5fb13427",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:0871252f",
+        "kind": "Logic_AND",
+        "label": "Logic_AND",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:6e0a1fff",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_017_f7ecc9aff2:9468a594",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11001,
+        "annotation": "endpoint_chapter110_1",
+        "title_zh": "第三十五集 完",
+        "storyline_title_zh": "第三十五集 完"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 11002,
+        "annotation": "endpoint_chapter110_2",
+        "title_zh": "第三十六集 帝后之间",
+        "storyline_title_zh": "前往【日月同辉】"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1001,
+        "annotation": "NE01",
+        "title_zh": "突袭废后计划",
+        "target_video_key": "CL040_018_020"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1006,
+        "annotation": "NE06熄不灭的反对者\n一个上官宜不可怕，许多上官宜的追随者才可怕……",
+        "title_zh": "熄不灭的反对者",
+        "target_video_key": "CL080_018_035"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1008,
+        "annotation": "NE08",
+        "title_zh": "对抗路母子",
+        "target_video_key": "CL090_018_041"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1003,
+        "annotation": "NE03",
+        "title_zh": "未来已逝",
+        "target_video_key": "CL050_018_024"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1007,
+        "annotation": "NE07",
+        "title_zh": "同进退，共甘苦",
+        "target_video_key": "CL090_018_041"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11001,
+        "annotation": "endpoint_chapter110_1",
+        "title_zh": "第三十五集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 11002,
+        "annotation": "endpoint_chapter110_2",
+        "title_zh": "第三十六集 帝后之间",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_HappyEnd",
+        "endpoint_id": 1002,
+        "annotation": "HE02",
+        "title_zh": "退休夫妻",
+        "target_video_key": "CL040_018_020"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1009,
+        "annotation": "NE08",
+        "title_zh": "与子偕老",
+        "target_video_key": "CL120_018_055"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1010,
+        "annotation": "NE09",
+        "title_zh": "退一步便是退万步",
+        "target_video_key": "C130_018_058"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1011,
+        "annotation": "NE99",
+        "title_zh": "与子偕老",
+        "target_video_key": "CL070_018_031"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1012,
+        "annotation": "NE99 与子偕老",
+        "title_zh": "与子偕老",
+        "target_video_key": "CL131_018_079"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1013,
+        "annotation": "NE05",
+        "title_zh": "上官宜的阴魂",
+        "target_video_key": "CL072_018_085"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1014,
+        "annotation": "NE10",
+        "title_zh": "心软的神",
+        "target_video_key": "CL072_018_085"
+      }
+    ],
+    "reachable_from_start_count": 128
+  },
+  {
+    "storyline_id": "storyline_003_a2888dd30d",
+    "source_file": "storyline_003_a2888dd30d.json",
+    "node_count": 52,
+    "edge_count": 51,
+    "choice_edge_count": 15,
+    "node_kind_counts": {
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_NormalEnd": 4,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 3,
+      "Getter_GetVideoKeyVariable_Boloean": 2,
+      "Getter_GetVideoKeyVariable_Sum": 2,
+      "Logic_Math_LessThan": 2,
+      "Logic_OR": 1,
+      "PlayVideo_Ordinary": 25,
+      "PlayVideo_TraceBack": 3,
+      "ShowChoice": 6
+    },
+    "video_prefix_counts": {
+      "019": 34
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_003_a2888dd30d:d13c0017",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "老19集上开始",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_003_a2888dd30d:254b4e2b",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_003_a2888dd30d:93697f0a",
+        "kind": "Logic_Math_LessThan",
+        "label": "Logic_Math_LessThan",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_003_a2888dd30d:07950da2",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_003_a2888dd30d:93154365",
+        "kind": "Logic_Math_LessThan",
+        "label": "Logic_Math_LessThan",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_003_a2888dd30d:e41ff662",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_003_a2888dd30d:740883f6",
+        "kind": "Logic_OR",
+        "label": "Logic_OR",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_003_a2888dd30d:300dfb77",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_003_a2888dd30d:957f148a",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11101,
+        "annotation": "endpoint_chapter111_1",
+        "title_zh": "第三十七集 完",
+        "storyline_title_zh": "第三十七集 完"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 11102,
+        "annotation": "endpoint_chapter111_2",
+        "title_zh": "第三十八集 日月同辉",
+        "storyline_title_zh": "前往【盛世天下】"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1101,
+        "annotation": "NE01",
+        "title_zh": "退休仪式",
+        "target_video_key": "C020_019_006"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1102,
+        "annotation": "NE02",
+        "title_zh": "太“孝”了吧",
+        "target_video_key": "CL010_019_002"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1103,
+        "annotation": "NE03",
+        "title_zh": "孝意满满桂花茶",
+        "target_video_key": "CL010_019_002"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1104,
+        "annotation": "NE04",
+        "title_zh": "孝意满满桂花茶",
+        "target_video_key": "CL010_019_002"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11101,
+        "annotation": "endpoint_chapter111_1",
+        "title_zh": "第三十七集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 11102,
+        "annotation": "endpoint_chapter111_2",
+        "title_zh": "第三十八集 日月同辉",
+        "target_video_key": null
+      }
+    ],
+    "reachable_from_start_count": 52
+  },
+  {
+    "storyline_id": "storyline_005_a2888dd30d",
+    "source_file": "storyline_005_a2888dd30d.json",
+    "node_count": 52,
+    "edge_count": 51,
+    "choice_edge_count": 15,
+    "node_kind_counts": {
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_NormalEnd": 4,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 3,
+      "Getter_GetVideoKeyVariable_Boloean": 2,
+      "Getter_GetVideoKeyVariable_Sum": 2,
+      "Logic_Math_LessThan": 2,
+      "Logic_OR": 1,
+      "PlayVideo_Ordinary": 25,
+      "PlayVideo_TraceBack": 3,
+      "ShowChoice": 6
+    },
+    "video_prefix_counts": {
+      "019": 34
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_005_a2888dd30d:d13c0017",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "老19集上开始",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_a2888dd30d:254b4e2b",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_a2888dd30d:93697f0a",
+        "kind": "Logic_Math_LessThan",
+        "label": "Logic_Math_LessThan",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_a2888dd30d:07950da2",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_a2888dd30d:93154365",
+        "kind": "Logic_Math_LessThan",
+        "label": "Logic_Math_LessThan",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_a2888dd30d:e41ff662",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_a2888dd30d:740883f6",
+        "kind": "Logic_OR",
+        "label": "Logic_OR",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_a2888dd30d:300dfb77",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_005_a2888dd30d:957f148a",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11101,
+        "annotation": "endpoint_chapter111_1",
+        "title_zh": "第三十七集 完",
+        "storyline_title_zh": "第三十七集 完"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 11102,
+        "annotation": "endpoint_chapter111_2",
+        "title_zh": "第三十八集 日月同辉",
+        "storyline_title_zh": "前往【盛世天下】"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1101,
+        "annotation": "NE01",
+        "title_zh": "退休仪式",
+        "target_video_key": "C020_019_006"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1102,
+        "annotation": "NE02",
+        "title_zh": "太“孝”了吧",
+        "target_video_key": "CL010_019_002"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1103,
+        "annotation": "NE03",
+        "title_zh": "孝意满满桂花茶",
+        "target_video_key": "CL010_019_002"
+      },
+      {
+        "kind": "EndPoint_NormalEnd",
+        "endpoint_id": 1104,
+        "annotation": "NE04",
+        "title_zh": "孝意满满桂花茶",
+        "target_video_key": "CL010_019_002"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 11101,
+        "annotation": "endpoint_chapter111_1",
+        "title_zh": "第三十七集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 11102,
+        "annotation": "endpoint_chapter111_2",
+        "title_zh": "第三十八集 日月同辉",
+        "target_video_key": null
+      }
+    ],
+    "reachable_from_start_count": 52
+  },
+  {
+    "storyline_id": "storyline_006_5ca9f187a8",
+    "source_file": "storyline_006_5ca9f187a8.json",
+    "node_count": 147,
+    "edge_count": 136,
+    "choice_edge_count": 37,
+    "node_kind_counts": {
+      "EndPoint_BadEnd_NW": 19,
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 7,
+      "Getter_GetVideoKeyIndex": 9,
+      "Getter_GetVideoKeyVariable_Boloean": 6,
+      "Getter_Storyline_DynamicChoiceVideo": 1,
+      "Getter_Storyline_DynamicVideo": 1,
+      "Global_GlobalVariableGetter": 1,
+      "Global_GlobalVariableSetter": 1,
+      "Link_Lead": 2,
+      "Logic_NOT": 4,
+      "PlayVideo_Ordinary": 71,
+      "PlayVideo_TraceBack": 6,
+      "ShowChoice": 15
+    },
+    "video_prefix_counts": {
+      "S01": 92
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_006_5ca9f187a8:28bbf516",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "新世界第一集：S01上 开始",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:29778926",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:4e59a866",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:453aa79c",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:6889656b",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:b6a76a5a",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:51add991",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:814dbd96",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:b29826a0",
+        "kind": "Getter_GetVideoKeyIndex",
+        "label": "Getter_GetVideoKeyIndex",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:1bac09b2",
+        "kind": "Getter_GetVideoKeyIndex",
+        "label": "Getter_GetVideoKeyIndex",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:fb6b87e6",
+        "kind": "Getter_GetVideoKeyIndex",
+        "label": "Getter_GetVideoKeyIndex",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:c38627db",
+        "kind": "Getter_GetVideoKeyIndex",
+        "label": "Getter_GetVideoKeyIndex",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:f847878f",
+        "kind": "Logic_NOT",
+        "label": "Logic_NOT",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:c5fecb01",
+        "kind": "Global_GlobalVariableGetter",
+        "label": "Global_GlobalVariableGetter",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:578313db",
+        "kind": "Getter_Storyline_DynamicVideo",
+        "label": "S01_098",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:bb8b0d37",
+        "kind": "Getter_Storyline_DynamicChoiceVideo",
+        "label": "CL050_S01_019",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:3c567ad4",
+        "kind": "Getter_GetVideoKeyIndex",
+        "label": "Getter_GetVideoKeyIndex",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:e75550f7",
+        "kind": "Getter_GetVideoKeyIndex",
+        "label": "Getter_GetVideoKeyIndex",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:31e32754",
+        "kind": "Logic_NOT",
+        "label": "Logic_NOT",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_006_5ca9f187a8:a1bc114b",
+        "kind": "Getter_GetVideoKeyIndex",
+        "label": "Getter_GetVideoKeyIndex",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 20102,
+        "annotation": "endpoint",
+        "title_zh": "第十八集 逃不出的感业寺",
+        "storyline_title_zh": "前往【危险重逢】"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 20101,
+        "annotation": "小章节结算",
+        "title_zh": "第十七集 完",
+        "storyline_title_zh": "第十七集 完"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 20102,
+        "annotation": "endpoint",
+        "title_zh": "第十八集 逃不出的感业寺",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 20101,
+        "annotation": "小章节结算",
+        "title_zh": "第十七集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2101,
+        "annotation": "BE01 永坠幻象\n将自由寄希望于他人的那一刻，便是失去自由的最终时刻。",
+        "title_zh": "永坠幻象",
+        "target_video_key": "CL010_S01_002"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2102,
+        "annotation": "BE02 女鬼的等待\n在感业寺，猥琐发育真的能等来救赎吗？补，智能等来女鬼刘熙。",
+        "title_zh": "女鬼的等待",
+        "target_video_key": "CL020_S01_005"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2103,
+        "annotation": "BE03 逃不出的感业寺\n如同你根本无法逃脱的宿命",
+        "title_zh": "逃不出的感业寺",
+        "target_video_key": "CL020_S01_005"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2104,
+        "annotation": "BE04 永远留下来吧\n跑得再快，再远，也根本跑不出这里。",
+        "title_zh": "永远留下来吧",
+        "target_video_key": "C030_S01_009"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2105,
+        "annotation": "BE06 感业寺无恋爱脑\n你高估了你在夏女官心中的分量，也低估了官位对她的吸引力。",
+        "title_zh": "恋爱脑含量为0",
+        "target_video_key": "CL040_S01_013"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2106,
+        "annotation": "BE05 井中已满员\n井中已有熙姐，终究是井中太过拥挤，你才没能成功将夏女官送进去。",
+        "title_zh": "井中已满员",
+        "target_video_key": "CL040_S01_013"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2107,
+        "annotation": "BE07 恳求审漏调监控\n其实，蜃楼箫管事近日的口腔溃疡，才是她毒素迅速发酵的最大的元凶。",
+        "title_zh": "真不是我杀的啊！",
+        "target_video_key": "CL050_S01_019"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2108,
+        "annotation": "BE08 共坠无间\n对抗路诡秘，天地之外，再不分离",
+        "title_zh": "共坠无间",
+        "target_video_key": "CL070_S01_032"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2109,
+        "annotation": "BE09 一眼万年\n再精密的计划，都敌不过萧舒妃望向你的那一眼。",
+        "title_zh": "一眼万年",
+        "target_video_key": "CL050_S01_019"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2110,
+        "annotation": "BE10 魂归感业寺\n或许，你从未真正逃离这里。新的世界，根本不存在。",
+        "title_zh": "失落的漂亮人皮",
+        "target_video_key": "CL050_S01_019"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2112,
+        "annotation": "BE12 绿光先帝\n盛帝：真实让朕开了个龙眼。",
+        "title_zh": "绿光先帝",
+        "target_video_key": "CL100_S01_050"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2113,
+        "annotation": "BE52 绿光先帝\n盛帝：真实让朕开了个龙眼。",
+        "title_zh": "绿光先帝",
+        "target_video_key": "CL100_S01_050"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2114,
+        "annotation": "BE13 楼主耐心已告急\n出门在外，人设都是自己给的。但既然是自己给的，更要以抓住对手心理为关键",
+        "title_zh": "美弱惨人设",
+        "target_video_key": "CL100_S01_050"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2115,
+        "annotation": "BE53 楼主耐心已告急\n出门在外，人设都是自己给的。但既然是自己给的，更要以抓住对手心理为关键",
+        "title_zh": "美弱惨人设",
+        "target_video_key": "CL100_S01_050"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2116,
+        "annotation": "BE14 失落的人皮\n你明明有一腔真心，那和他人只看中了你的皮囊",
+        "title_zh": "过于谦逊了老铁",
+        "target_video_key": "CL110_S01_058"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2118,
+        "annotation": "BE15 画皮者脾气大\n就因为一句反驳就气得要剥了你的皮，箫念也太皮了。",
+        "title_zh": "刺客之刃",
+        "target_video_key": "C060_S01_025"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2119,
+        "annotation": "BE15-1",
+        "title_zh": "刀下亡魂",
+        "target_video_key": "Q142_S01_078"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2117,
+        "annotation": "BE14-1 失落的⼈⽪",
+        "title_zh": "隐藏实力的大佬",
+        "target_video_key": "CL110_S01_058"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2120,
+        "annotation": "BE15 画皮者脾气大\n就因为一句反驳就气得要剥了你的皮，箫念也太皮了。",
+        "title_zh": "生死时刻",
+        "target_video_key": "Q143_S01_085"
+      }
+    ],
+    "reachable_from_start_count": 147
+  },
+  {
+    "storyline_id": "storyline_007_5ca9f187a8",
+    "source_file": "storyline_007_5ca9f187a8.json",
+    "node_count": 147,
+    "edge_count": 136,
+    "choice_edge_count": 37,
+    "node_kind_counts": {
+      "EndPoint_BadEnd_NW": 19,
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 7,
+      "Getter_GetVideoKeyIndex": 9,
+      "Getter_GetVideoKeyVariable_Boloean": 6,
+      "Getter_Storyline_DynamicChoiceVideo": 1,
+      "Getter_Storyline_DynamicVideo": 1,
+      "Global_GlobalVariableGetter": 1,
+      "Global_GlobalVariableSetter": 1,
+      "Link_Lead": 2,
+      "Logic_NOT": 4,
+      "PlayVideo_Ordinary": 71,
+      "PlayVideo_TraceBack": 6,
+      "ShowChoice": 15
+    },
+    "video_prefix_counts": {
+      "S01": 92
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_007_5ca9f187a8:28bbf516",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "新世界第一集：S01上 开始",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:29778926",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:4e59a866",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:453aa79c",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:6889656b",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:b6a76a5a",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:51add991",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:814dbd96",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:b29826a0",
+        "kind": "Getter_GetVideoKeyIndex",
+        "label": "Getter_GetVideoKeyIndex",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:1bac09b2",
+        "kind": "Getter_GetVideoKeyIndex",
+        "label": "Getter_GetVideoKeyIndex",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:fb6b87e6",
+        "kind": "Getter_GetVideoKeyIndex",
+        "label": "Getter_GetVideoKeyIndex",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:c38627db",
+        "kind": "Getter_GetVideoKeyIndex",
+        "label": "Getter_GetVideoKeyIndex",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:f847878f",
+        "kind": "Logic_NOT",
+        "label": "Logic_NOT",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:c5fecb01",
+        "kind": "Global_GlobalVariableGetter",
+        "label": "Global_GlobalVariableGetter",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:578313db",
+        "kind": "Getter_Storyline_DynamicVideo",
+        "label": "S01_098",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:bb8b0d37",
+        "kind": "Getter_Storyline_DynamicChoiceVideo",
+        "label": "CL050_S01_019",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:3c567ad4",
+        "kind": "Getter_GetVideoKeyIndex",
+        "label": "Getter_GetVideoKeyIndex",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:e75550f7",
+        "kind": "Getter_GetVideoKeyIndex",
+        "label": "Getter_GetVideoKeyIndex",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:31e32754",
+        "kind": "Logic_NOT",
+        "label": "Logic_NOT",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_5ca9f187a8:a1bc114b",
+        "kind": "Getter_GetVideoKeyIndex",
+        "label": "Getter_GetVideoKeyIndex",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 20102,
+        "annotation": "endpoint",
+        "title_zh": "第十八集 逃不出的感业寺",
+        "storyline_title_zh": "前往【危险重逢】"
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 20101,
+        "annotation": "小章节结算",
+        "title_zh": "第十七集 完",
+        "storyline_title_zh": "第十七集 完"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 20102,
+        "annotation": "endpoint",
+        "title_zh": "第十八集 逃不出的感业寺",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 20101,
+        "annotation": "小章节结算",
+        "title_zh": "第十七集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2101,
+        "annotation": "BE01 永坠幻象\n将自由寄希望于他人的那一刻，便是失去自由的最终时刻。",
+        "title_zh": "永坠幻象",
+        "target_video_key": "CL010_S01_002"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2102,
+        "annotation": "BE02 女鬼的等待\n在感业寺，猥琐发育真的能等来救赎吗？补，智能等来女鬼刘熙。",
+        "title_zh": "女鬼的等待",
+        "target_video_key": "CL020_S01_005"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2103,
+        "annotation": "BE03 逃不出的感业寺\n如同你根本无法逃脱的宿命",
+        "title_zh": "逃不出的感业寺",
+        "target_video_key": "CL020_S01_005"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2104,
+        "annotation": "BE04 永远留下来吧\n跑得再快，再远，也根本跑不出这里。",
+        "title_zh": "永远留下来吧",
+        "target_video_key": "C030_S01_009"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2105,
+        "annotation": "BE06 感业寺无恋爱脑\n你高估了你在夏女官心中的分量，也低估了官位对她的吸引力。",
+        "title_zh": "恋爱脑含量为0",
+        "target_video_key": "CL040_S01_013"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2106,
+        "annotation": "BE05 井中已满员\n井中已有熙姐，终究是井中太过拥挤，你才没能成功将夏女官送进去。",
+        "title_zh": "井中已满员",
+        "target_video_key": "CL040_S01_013"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2107,
+        "annotation": "BE07 恳求审漏调监控\n其实，蜃楼箫管事近日的口腔溃疡，才是她毒素迅速发酵的最大的元凶。",
+        "title_zh": "真不是我杀的啊！",
+        "target_video_key": "CL050_S01_019"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2108,
+        "annotation": "BE08 共坠无间\n对抗路诡秘，天地之外，再不分离",
+        "title_zh": "共坠无间",
+        "target_video_key": "CL070_S01_032"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2109,
+        "annotation": "BE09 一眼万年\n再精密的计划，都敌不过萧舒妃望向你的那一眼。",
+        "title_zh": "一眼万年",
+        "target_video_key": "CL050_S01_019"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2110,
+        "annotation": "BE10 魂归感业寺\n或许，你从未真正逃离这里。新的世界，根本不存在。",
+        "title_zh": "失落的漂亮人皮",
+        "target_video_key": "CL050_S01_019"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2112,
+        "annotation": "BE12 绿光先帝\n盛帝：真实让朕开了个龙眼。",
+        "title_zh": "绿光先帝",
+        "target_video_key": "CL100_S01_050"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2113,
+        "annotation": "BE52 绿光先帝\n盛帝：真实让朕开了个龙眼。",
+        "title_zh": "绿光先帝",
+        "target_video_key": "CL100_S01_050"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2114,
+        "annotation": "BE13 楼主耐心已告急\n出门在外，人设都是自己给的。但既然是自己给的，更要以抓住对手心理为关键",
+        "title_zh": "美弱惨人设",
+        "target_video_key": "CL100_S01_050"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2115,
+        "annotation": "BE53 楼主耐心已告急\n出门在外，人设都是自己给的。但既然是自己给的，更要以抓住对手心理为关键",
+        "title_zh": "美弱惨人设",
+        "target_video_key": "CL100_S01_050"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2116,
+        "annotation": "BE14 失落的人皮\n你明明有一腔真心，那和他人只看中了你的皮囊",
+        "title_zh": "过于谦逊了老铁",
+        "target_video_key": "CL110_S01_058"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2118,
+        "annotation": "BE15 画皮者脾气大\n就因为一句反驳就气得要剥了你的皮，箫念也太皮了。",
+        "title_zh": "刺客之刃",
+        "target_video_key": "C060_S01_025"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2119,
+        "annotation": "BE15-1",
+        "title_zh": "刀下亡魂",
+        "target_video_key": "Q142_S01_078"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2117,
+        "annotation": "BE14-1 失落的⼈⽪",
+        "title_zh": "隐藏实力的大佬",
+        "target_video_key": "CL110_S01_058"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2120,
+        "annotation": "BE15 画皮者脾气大\n就因为一句反驳就气得要剥了你的皮，箫念也太皮了。",
+        "title_zh": "生死时刻",
+        "target_video_key": "Q143_S01_085"
+      }
+    ],
+    "reachable_from_start_count": 147
+  },
+  {
+    "storyline_id": "storyline_007_6b350e5aaf",
+    "source_file": "storyline_007_6b350e5aaf.json",
+    "node_count": 135,
+    "edge_count": 145,
+    "choice_edge_count": 44,
+    "node_kind_counts": {
+      "EndPoint_BadEnd_NW": 16,
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 3,
+      "Getter_GetVideoKeyVariable_Boloean": 3,
+      "PlayVideo_Ordinary": 79,
+      "PlayVideo_TraceBack": 12,
+      "ShowChoice": 18
+    },
+    "video_prefix_counts": {
+      "S02": 109
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_007_6b350e5aaf:b5bf3e01",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "EntryPoint_ChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_6b350e5aaf:b9608896",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_6b350e5aaf:15d85024",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_6b350e5aaf:fe46b3da",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_007_6b350e5aaf:ab95b5f6",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 20201,
+        "annotation": "",
+        "title_zh": "第十九集 完",
+        "storyline_title_zh": "第十九集 完"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 20202,
+        "annotation": "endpoint",
+        "title_zh": "第二十集 危险重逢",
+        "storyline_title_zh": "前往【枷锁之外】"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 20201,
+        "annotation": "",
+        "title_zh": "第十九集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 20202,
+        "annotation": "endpoint",
+        "title_zh": "第二十集 危险重逢",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2201,
+        "annotation": "BE16 部下的疑虑\n至少魏王不是恋爱脑，不会为了初恋一句话，就不听老员工的话。 ",
+        "title_zh": "谁来为她发声",
+        "target_video_key": "CL160_S02_007"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2202,
+        "annotation": "BE17 部下的疑虑\n至少魏王不是恋爱脑，不会为了初恋一句话，就不听老员工的话。 ",
+        "title_zh": "魏王的后援男团",
+        "target_video_key": "CL160_S02_007"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2203,
+        "annotation": "BE19 死后的新世界\n相信莫楼主，泰死媚娘煮",
+        "title_zh": "魏王人头已收割",
+        "target_video_key": "CL190_S02_020"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2204,
+        "annotation": "BE21",
+        "title_zh": "城门鬼门关",
+        "target_video_key": "CL210_S02_023"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2205,
+        "annotation": "BE20 鬼门关\n看守奈何桥的小鬼也从不会被贿赂，真是阎王的好员工。",
+        "title_zh": "城门鬼门关",
+        "target_video_key": "CL210_S02_023"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2206,
+        "annotation": "BE25",
+        "title_zh": "哎呀你可别蹭了！",
+        "target_video_key": "CL230_S02_033"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2209,
+        "annotation": "BE28 亲疏有别",
+        "title_zh": "《全都是皇族》",
+        "target_video_key": "CL250_S02_043"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2210,
+        "annotation": "BE29",
+        "title_zh": "鸡汤被拒了！",
+        "target_video_key": "CL260_S02_046"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2211,
+        "annotation": "BE30",
+        "title_zh": "瞒不过的瞒报",
+        "target_video_key": "CL270_S02_057"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2212,
+        "annotation": "BE31",
+        "title_zh": "年度最佳挑衅奖",
+        "target_video_key": "CL270_S02_057"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2213,
+        "annotation": "BE32",
+        "title_zh": "心软的神",
+        "target_video_key": "CL290_S02_067"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2207,
+        "annotation": "BE50",
+        "title_zh": "刀下亡魂",
+        "target_video_key": "Q241_S02_074"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2208,
+        "annotation": "BE51",
+        "title_zh": "刀下亡魂",
+        "target_video_key": "Q242_S02_077"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2214,
+        "annotation": "BE52",
+        "title_zh": "卡在始发站的解药",
+        "target_video_key": "CL221_S02_091"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2215,
+        "annotation": "BE53",
+        "title_zh": "兔死狗烹",
+        "target_video_key": "CL221_S02_091"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2216,
+        "annotation": "2216",
+        "title_zh": "刀下亡魂",
+        "target_video_key": "CL232_S02_107"
+      }
+    ],
+    "reachable_from_start_count": 135
+  },
+  {
+    "storyline_id": "storyline_008_6b350e5aaf",
+    "source_file": "storyline_008_6b350e5aaf.json",
+    "node_count": 135,
+    "edge_count": 145,
+    "choice_edge_count": 44,
+    "node_kind_counts": {
+      "EndPoint_BadEnd_NW": 16,
+      "EndPoint_ChapterReport": 1,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 3,
+      "Getter_GetVideoKeyVariable_Boloean": 3,
+      "PlayVideo_Ordinary": 79,
+      "PlayVideo_TraceBack": 12,
+      "ShowChoice": 18
+    },
+    "video_prefix_counts": {
+      "S02": 109
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_008_6b350e5aaf:b5bf3e01",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "EntryPoint_ChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_008_6b350e5aaf:b9608896",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_008_6b350e5aaf:15d85024",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_008_6b350e5aaf:fe46b3da",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_008_6b350e5aaf:ab95b5f6",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 20201,
+        "annotation": "",
+        "title_zh": "第十九集 完",
+        "storyline_title_zh": "第十九集 完"
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 20202,
+        "annotation": "endpoint",
+        "title_zh": "第二十集 危险重逢",
+        "storyline_title_zh": "前往【枷锁之外】"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 20201,
+        "annotation": "",
+        "title_zh": "第十九集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 20202,
+        "annotation": "endpoint",
+        "title_zh": "第二十集 危险重逢",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2201,
+        "annotation": "BE16 部下的疑虑\n至少魏王不是恋爱脑，不会为了初恋一句话，就不听老员工的话。 ",
+        "title_zh": "谁来为她发声",
+        "target_video_key": "CL160_S02_007"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2202,
+        "annotation": "BE17 部下的疑虑\n至少魏王不是恋爱脑，不会为了初恋一句话，就不听老员工的话。 ",
+        "title_zh": "魏王的后援男团",
+        "target_video_key": "CL160_S02_007"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2203,
+        "annotation": "BE19 死后的新世界\n相信莫楼主，泰死媚娘煮",
+        "title_zh": "魏王人头已收割",
+        "target_video_key": "CL190_S02_020"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2204,
+        "annotation": "BE21",
+        "title_zh": "城门鬼门关",
+        "target_video_key": "CL210_S02_023"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2205,
+        "annotation": "BE20 鬼门关\n看守奈何桥的小鬼也从不会被贿赂，真是阎王的好员工。",
+        "title_zh": "城门鬼门关",
+        "target_video_key": "CL210_S02_023"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2206,
+        "annotation": "BE25",
+        "title_zh": "哎呀你可别蹭了！",
+        "target_video_key": "CL230_S02_033"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2209,
+        "annotation": "BE28 亲疏有别",
+        "title_zh": "《全都是皇族》",
+        "target_video_key": "CL250_S02_043"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2210,
+        "annotation": "BE29",
+        "title_zh": "鸡汤被拒了！",
+        "target_video_key": "CL260_S02_046"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2211,
+        "annotation": "BE30",
+        "title_zh": "瞒不过的瞒报",
+        "target_video_key": "CL270_S02_057"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2212,
+        "annotation": "BE31",
+        "title_zh": "年度最佳挑衅奖",
+        "target_video_key": "CL270_S02_057"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2213,
+        "annotation": "BE32",
+        "title_zh": "心软的神",
+        "target_video_key": "CL290_S02_067"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2207,
+        "annotation": "BE50",
+        "title_zh": "刀下亡魂",
+        "target_video_key": "Q241_S02_074"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2208,
+        "annotation": "BE51",
+        "title_zh": "刀下亡魂",
+        "target_video_key": "Q242_S02_077"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2214,
+        "annotation": "BE52",
+        "title_zh": "卡在始发站的解药",
+        "target_video_key": "CL221_S02_091"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2215,
+        "annotation": "BE53",
+        "title_zh": "兔死狗烹",
+        "target_video_key": "CL221_S02_091"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2216,
+        "annotation": "2216",
+        "title_zh": "刀下亡魂",
+        "target_video_key": "CL232_S02_107"
+      }
+    ],
+    "reachable_from_start_count": 135
+  },
+  {
+    "storyline_id": "storyline_004_abf6427c82",
+    "source_file": "storyline_004_abf6427c82.json",
+    "node_count": 53,
+    "edge_count": 57,
+    "choice_edge_count": 19,
+    "node_kind_counts": {
+      "EndPoint_BadEnd_NW": 8,
+      "EndPoint_ChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "Function_Storyline_If": 1,
+      "Getter_GetVideoKeyVariable_Boloean": 1,
+      "PlayVideo_Ordinary": 31,
+      "PlayVideo_TraceBack": 3,
+      "ShowChoice": 7
+    },
+    "video_prefix_counts": {
+      "S03": 41
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_004_abf6427c82:1e16aa62",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "EntryPoint_ChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_004_abf6427c82:0b845963",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 20301,
+        "annotation": "",
+        "title_zh": "第二十一集 枷锁之外",
+        "storyline_title_zh": "前往【新的世界】"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 20301,
+        "annotation": "",
+        "title_zh": "第二十一集 枷锁之外",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2301,
+        "annotation": "BE33",
+        "title_zh": "一拳上西天",
+        "target_video_key": "CL340_S03_006"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2304,
+        "annotation": "BE34",
+        "title_zh": "原生家庭的伤害",
+        "target_video_key": "C370_S03_016"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2305,
+        "annotation": "BE35",
+        "title_zh": "禁止拉踩",
+        "target_video_key": "C370_S03_016"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2306,
+        "annotation": "BE36",
+        "title_zh": "禁止拉踩",
+        "target_video_key": "C370_S03_016"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2307,
+        "annotation": "BE37",
+        "title_zh": "以己夺人",
+        "target_video_key": "CL380_S03_025"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2303,
+        "annotation": "BE54",
+        "title_zh": "刀下亡魂",
+        "target_video_key": "Q360_S03_014"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2308,
+        "annotation": "BE45",
+        "title_zh": "地府团建了",
+        "target_video_key": "CL381_S03_029"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2302,
+        "annotation": "BE53",
+        "title_zh": "成为狗粮的一天",
+        "target_video_key": "CL351_S03_035"
+      }
+    ],
+    "reachable_from_start_count": 53
+  },
+  {
+    "storyline_id": "storyline_009_abf6427c82",
+    "source_file": "storyline_009_abf6427c82.json",
+    "node_count": 53,
+    "edge_count": 57,
+    "choice_edge_count": 19,
+    "node_kind_counts": {
+      "EndPoint_BadEnd_NW": 8,
+      "EndPoint_ChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "Function_Storyline_If": 1,
+      "Getter_GetVideoKeyVariable_Boloean": 1,
+      "PlayVideo_Ordinary": 31,
+      "PlayVideo_TraceBack": 3,
+      "ShowChoice": 7
+    },
+    "video_prefix_counts": {
+      "S03": 41
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_009_abf6427c82:1e16aa62",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "EntryPoint_ChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_009_abf6427c82:0b845963",
+        "kind": "Getter_GetVideoKeyVariable_Boloean",
+        "label": "Getter_GetVideoKeyVariable_Boloean",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 20301,
+        "annotation": "",
+        "title_zh": "第二十一集 枷锁之外",
+        "storyline_title_zh": "前往【新的世界】"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_ChapterReport",
+        "endpoint_id": 20301,
+        "annotation": "",
+        "title_zh": "第二十一集 枷锁之外",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2301,
+        "annotation": "BE33",
+        "title_zh": "一拳上西天",
+        "target_video_key": "CL340_S03_006"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2304,
+        "annotation": "BE34",
+        "title_zh": "原生家庭的伤害",
+        "target_video_key": "C370_S03_016"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2305,
+        "annotation": "BE35",
+        "title_zh": "禁止拉踩",
+        "target_video_key": "C370_S03_016"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2306,
+        "annotation": "BE36",
+        "title_zh": "禁止拉踩",
+        "target_video_key": "C370_S03_016"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2307,
+        "annotation": "BE37",
+        "title_zh": "以己夺人",
+        "target_video_key": "CL380_S03_025"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2303,
+        "annotation": "BE54",
+        "title_zh": "刀下亡魂",
+        "target_video_key": "Q360_S03_014"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2308,
+        "annotation": "BE45",
+        "title_zh": "地府团建了",
+        "target_video_key": "CL381_S03_029"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2302,
+        "annotation": "BE53",
+        "title_zh": "成为狗粮的一天",
+        "target_video_key": "CL351_S03_035"
+      }
+    ],
+    "reachable_from_start_count": 53
+  },
+  {
+    "storyline_id": "storyline_008_9fccb45504",
+    "source_file": "storyline_008_9fccb45504.json",
+    "node_count": 101,
+    "edge_count": 110,
+    "choice_edge_count": 35,
+    "node_kind_counts": {
+      "EndPoint_BadEnd_NW": 3,
+      "EndPoint_FinalReport": 2,
+      "EndPoint_HappyEnd_NW": 2,
+      "EndPoint_NormalEnd_NW": 2,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 3,
+      "Getter_GetVideoKeyVariable_Sum": 3,
+      "Logic_Math_Equal": 1,
+      "Logic_Math_GreaterThanOrEqual": 2,
+      "PlayVideo_Ordinary": 61,
+      "PlayVideo_TraceBack": 5,
+      "ShowChoice": 14
+    },
+    "video_prefix_counts": {
+      "S04": 80
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_008_9fccb45504:f15af298",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "EntryPoint_ChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_008_9fccb45504:2e4b4ee3",
+        "kind": "Logic_Math_Equal",
+        "label": "Logic_Math_Equal",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_008_9fccb45504:d341b025",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_008_9fccb45504:a2d52725",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_008_9fccb45504:5b4337ce",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_008_9fccb45504:774b7924",
+        "kind": "Logic_Math_GreaterThanOrEqual",
+        "label": "Logic_Math_GreaterThanOrEqual",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_008_9fccb45504:1668990b",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_008_9fccb45504:95a5dcd4",
+        "kind": "Logic_Math_GreaterThanOrEqual",
+        "label": "Logic_Math_GreaterThanOrEqual",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 20401,
+        "annotation": "小结算",
+        "title_zh": "第二十二集 完",
+        "storyline_title_zh": "第二十二集 完"
+      },
+      {
+        "kind": "EndPoint_FinalReport",
+        "endpoint_id": 20403,
+        "annotation": "endpoint",
+        "title_zh": "第二十三集 新的世界",
+        "storyline_title_zh": "【新的世界】完"
+      },
+      {
+        "kind": "EndPoint_FinalReport",
+        "endpoint_id": 20405,
+        "annotation": "endpoint",
+        "title_zh": "第二十三集 新的世界",
+        "storyline_title_zh": "【新的世界】完"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 20401,
+        "annotation": "小结算",
+        "title_zh": "第二十二集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2401,
+        "annotation": "BE39",
+        "title_zh": "生命之重",
+        "target_video_key": "CL400_S04_002"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2403,
+        "annotation": "BE40",
+        "title_zh": "我去！被偷水晶了！",
+        "target_video_key": "CL400_S04_002"
+      },
+      {
+        "kind": "EndPoint_NormalEnd_NW",
+        "endpoint_id": 2407,
+        "annotation": "NE43",
+        "title_zh": "天地广阔",
+        "target_video_key": "CL480_S04_044"
+      },
+      {
+        "kind": "EndPoint_FinalReport",
+        "endpoint_id": 20403,
+        "annotation": "endpoint",
+        "title_zh": "第二十三集 新的世界",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_HappyEnd_NW",
+        "endpoint_id": 2408,
+        "annotation": "2408",
+        "title_zh": "太阳下的新生",
+        "target_video_key": "CL461_S04_027"
+      },
+      {
+        "kind": "EndPoint_FinalReport",
+        "endpoint_id": 20405,
+        "annotation": "endpoint",
+        "title_zh": "第二十三集 新的世界",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_NormalEnd_NW",
+        "endpoint_id": 2409,
+        "annotation": "2409",
+        "title_zh": "一直在路上",
+        "target_video_key": "CL461_S04_027"
+      },
+      {
+        "kind": "EndPoint_HappyEnd_NW",
+        "endpoint_id": 2402,
+        "annotation": "NE38",
+        "title_zh": "新世界力量",
+        "target_video_key": "CL400_S04_002"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2405,
+        "annotation": "NE44",
+        "title_zh": "大闹盛宫",
+        "target_video_key": "CL461_S04_027"
+      }
+    ],
+    "reachable_from_start_count": 101
+  },
+  {
+    "storyline_id": "storyline_010_9fccb45504",
+    "source_file": "storyline_010_9fccb45504.json",
+    "node_count": 101,
+    "edge_count": 110,
+    "choice_edge_count": 35,
+    "node_kind_counts": {
+      "EndPoint_BadEnd_NW": 3,
+      "EndPoint_FinalReport": 2,
+      "EndPoint_HappyEnd_NW": 2,
+      "EndPoint_NormalEnd_NW": 2,
+      "EndPoint_SubChapterReport": 1,
+      "EntryPoint_ChapterStart": 1,
+      "EntryPoint_SubChapterStart": 1,
+      "Function_Storyline_If": 3,
+      "Getter_GetVideoKeyVariable_Sum": 3,
+      "Logic_Math_Equal": 1,
+      "Logic_Math_GreaterThanOrEqual": 2,
+      "PlayVideo_Ordinary": 61,
+      "PlayVideo_TraceBack": 5,
+      "ShowChoice": 14
+    },
+    "video_prefix_counts": {
+      "S04": 80
+    },
+    "start_nodes": [
+      {
+        "node_id": "storyline_010_9fccb45504:f15af298",
+        "kind": "EntryPoint_ChapterStart",
+        "label": "EntryPoint_ChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_010_9fccb45504:2e4b4ee3",
+        "kind": "Logic_Math_Equal",
+        "label": "Logic_Math_Equal",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_010_9fccb45504:d341b025",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_010_9fccb45504:a2d52725",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_010_9fccb45504:5b4337ce",
+        "kind": "EntryPoint_SubChapterStart",
+        "label": "EntryPoint_SubChapterStart",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_010_9fccb45504:774b7924",
+        "kind": "Logic_Math_GreaterThanOrEqual",
+        "label": "Logic_Math_GreaterThanOrEqual",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_010_9fccb45504:1668990b",
+        "kind": "Getter_GetVideoKeyVariable_Sum",
+        "label": "Getter_GetVideoKeyVariable_Sum",
+        "title_zh": null
+      },
+      {
+        "node_id": "storyline_010_9fccb45504:95a5dcd4",
+        "kind": "Logic_Math_GreaterThanOrEqual",
+        "label": "Logic_Math_GreaterThanOrEqual",
+        "title_zh": null
+      }
+    ],
+    "chapter_reports": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 20401,
+        "annotation": "小结算",
+        "title_zh": "第二十二集 完",
+        "storyline_title_zh": "第二十二集 完"
+      },
+      {
+        "kind": "EndPoint_FinalReport",
+        "endpoint_id": 20403,
+        "annotation": "endpoint",
+        "title_zh": "第二十三集 新的世界",
+        "storyline_title_zh": "【新的世界】完"
+      },
+      {
+        "kind": "EndPoint_FinalReport",
+        "endpoint_id": 20405,
+        "annotation": "endpoint",
+        "title_zh": "第二十三集 新的世界",
+        "storyline_title_zh": "【新的世界】完"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "EndPoint_SubChapterReport",
+        "endpoint_id": 20401,
+        "annotation": "小结算",
+        "title_zh": "第二十二集 完",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2401,
+        "annotation": "BE39",
+        "title_zh": "生命之重",
+        "target_video_key": "CL400_S04_002"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2403,
+        "annotation": "BE40",
+        "title_zh": "我去！被偷水晶了！",
+        "target_video_key": "CL400_S04_002"
+      },
+      {
+        "kind": "EndPoint_NormalEnd_NW",
+        "endpoint_id": 2407,
+        "annotation": "NE43",
+        "title_zh": "天地广阔",
+        "target_video_key": "CL480_S04_044"
+      },
+      {
+        "kind": "EndPoint_FinalReport",
+        "endpoint_id": 20403,
+        "annotation": "endpoint",
+        "title_zh": "第二十三集 新的世界",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_HappyEnd_NW",
+        "endpoint_id": 2408,
+        "annotation": "2408",
+        "title_zh": "太阳下的新生",
+        "target_video_key": "CL461_S04_027"
+      },
+      {
+        "kind": "EndPoint_FinalReport",
+        "endpoint_id": 20405,
+        "annotation": "endpoint",
+        "title_zh": "第二十三集 新的世界",
+        "target_video_key": null
+      },
+      {
+        "kind": "EndPoint_NormalEnd_NW",
+        "endpoint_id": 2409,
+        "annotation": "2409",
+        "title_zh": "一直在路上",
+        "target_video_key": "CL461_S04_027"
+      },
+      {
+        "kind": "EndPoint_HappyEnd_NW",
+        "endpoint_id": 2402,
+        "annotation": "NE38",
+        "title_zh": "新世界力量",
+        "target_video_key": "CL400_S04_002"
+      },
+      {
+        "kind": "EndPoint_BadEnd_NW",
+        "endpoint_id": 2405,
+        "annotation": "NE44",
+        "title_zh": "大闹盛宫",
+        "target_video_key": "CL461_S04_027"
+      }
+    ],
+    "reachable_from_start_count": 101
+  }
+]

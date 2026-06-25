@@ -1,0 +1,1147 @@
+{
+  "schemaVersion": 1,
+  "description": "Deterministic replacement manifest for SSTX2 game-visible zh_GL text.",
+  "targets": [
+    "real game zh_GL SRT subtitles",
+    "real game TextClient*.pbin display text"
+  ],
+  "updatedAt": "2026-06-25",
+  "replacements": [
+    {
+      "id": "shufei-move-aside",
+      "from": "舒妃可愿移步一叙",
+      "to": "淑妃可愿移步一叙",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "prepare-play-for-shufei",
+      "from": "为舒妃准备的戏",
+      "to": "为淑妃准备的戏",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "according-to-shufei",
+      "from": "按照舒妃的说法",
+      "to": "按照淑妃的说法",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "dasheng-huangdi-shengdi-title",
+      "from": "大盛皇帝盛帝",
+      "to": "大唐太宗皇帝",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "shengdi-fourth-son",
+      "from": "盛帝的第四子",
+      "to": "唐太宗第四子",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "shengdi-fourth-son-no-de",
+      "from": "盛帝第四子",
+      "to": "唐太宗第四子",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "shengdi-ninth-son-no-de",
+      "from": "盛帝第九子",
+      "to": "唐太宗第九子",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "礼弘-幼年-stage-name",
+      "from": "礼弘(幼年)",
+      "to": "李弘(幼年)",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "礼弘-青年-stage-name",
+      "from": "礼弘(青年)",
+      "to": "李弘(青年)",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "礼旦-幼年-stage-name",
+      "from": "礼旦(幼年)",
+      "to": "李旦(幼年)",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "礼旦-青年-stage-name",
+      "from": "礼旦(青年)",
+      "to": "李旦(青年)",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "礼显-幼年-stage-name",
+      "from": "礼显(幼年)",
+      "to": "李显(幼年)",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "礼显-青年-stage-name",
+      "from": "礼显(青年)",
+      "to": "李显(青年)",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "礼贤-幼年-stage-name",
+      "from": "礼贤(幼年)",
+      "to": "李贤(幼年)",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "礼贤-青年-stage-name",
+      "from": "礼贤(青年)",
+      "to": "李贤(青年)",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "shufei-not-outsider",
+      "from": "舒妃不是外人",
+      "to": "淑妃不是外人",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "shufei-olive-branch-title",
+      "from": "舒妃的橄榄枝",
+      "to": "淑妃的橄榄枝",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "shangguanyi-memory-name",
+      "from": "上官宜回忆",
+      "to": "上官仪回忆",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "notify-shufei",
+      "from": "向舒妃报信",
+      "to": "向淑妃报信",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "hongan-and-anning-death",
+      "from": "弘儿和安宁",
+      "to": "弘儿和安定",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "gaoyang-princess-elder-title",
+      "from": "高扬长公主",
+      "to": "高阳长公主",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "shangguanwaner-name",
+      "from": "上官琬儿",
+      "to": "上官婉儿",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wuzhou-empress",
+      "from": "伍周女皇",
+      "to": "武周女皇",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wu-family-inlaws",
+      "from": "伍家外戚",
+      "to": "武家外戚",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wushi-family",
+      "from": "伍氏一族",
+      "to": "武氏一族",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wushi-brothers",
+      "from": "伍氏兄弟",
+      "to": "武氏兄弟",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wushi-elder-brothers",
+      "from": "伍氏兄长",
+      "to": "武氏兄长",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wushi-clan-relatives",
+      "from": "伍氏族亲",
+      "to": "武氏族亲",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wushi-prophecy",
+      "from": "伍氏谶言",
+      "to": "武氏谶言",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wu-king-prophecy-phrase",
+      "from": "伍王谶言",
+      "to": "武王谶言",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "support-li-clan-dynasty",
+      "from": "匡扶礼氏",
+      "to": "匡扶李唐",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "female-lord-wu",
+      "from": "女主伍王",
+      "to": "女主武王",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "anning-death-event",
+      "from": "安宁之死",
+      "to": "安定之死",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "anning-princess-title",
+      "from": "安宁公主",
+      "to": "安定公主",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "wuyuanzhao-child-name",
+      "from": "小伍元照",
+      "to": "小武元照",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "zhenguo-lady-title",
+      "from": "政国夫人",
+      "to": "郑国夫人",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "huanghou-wushi-title",
+      "from": "皇后伍氏",
+      "to": "皇后武氏",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "shengdi-xiachen-phrase",
+      "from": "盛帝下陈",
+      "to": "太宗下陈",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "shengdi-bestowed",
+      "from": "盛帝之赐",
+      "to": "太宗皇帝之赐",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "shengdi-cairen-title",
+      "from": "盛帝才人",
+      "to": "太宗才人",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "liji-name-spaced-double",
+      "from": "礼  勣",
+      "to": "李  勣",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "liji-name-spaced-single",
+      "from": "礼 勣",
+      "to": "李 勣",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "li-clan-dynastic-legitimacy",
+      "from": "礼氏正统",
+      "to": "李氏正统",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "li-clan-dynastic-state",
+      "from": "礼氏江山",
+      "to": "李唐江山",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "li-clan-royal-house",
+      "from": "礼氏皇室",
+      "to": "李氏皇室",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "li-clan-royal-family",
+      "from": "礼氏皇族",
+      "to": "李氏皇族",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "hanguo-lady-title",
+      "from": "邯国夫人",
+      "to": "韩国夫人",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "zhangsun-tawei-context",
+      "from": "长孙太尉",
+      "to": "长孙无忌",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "gaoyang-princess-title",
+      "from": "高扬公主",
+      "to": "高阳公主",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "shangguanyi-name",
+      "from": "上官宜",
+      "to": "上官仪",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wuyuanqing-name",
+      "from": "伍元庆",
+      "to": "武元庆",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wuyuanzhao-name",
+      "from": "伍元照",
+      "to": "武元照",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wuyuanshuang-name",
+      "from": "伍元爽",
+      "to": "武元爽",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wuyuanshun-name",
+      "from": "伍元顺",
+      "to": "武顺",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "yuanshun-given-name",
+      "from": "元顺",
+      "to": "武顺",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "wushihuo-name",
+      "from": "伍士彟",
+      "to": "武士彟",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wuguniang-address",
+      "from": "伍姑娘",
+      "to": "武姑娘",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wujiejie-address",
+      "from": "伍姐姐",
+      "to": "武姐姐",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wumeiniang-name",
+      "from": "伍媚娘",
+      "to": "武媚娘",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wu-family-army",
+      "from": "伍家军",
+      "to": "武家军",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wucairen-title",
+      "from": "伍才人",
+      "to": "武才人",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wuchengsi-name",
+      "from": "伍承嗣",
+      "to": "武承嗣",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wuzhaoyi-title",
+      "from": "伍昭仪",
+      "to": "武昭仪",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wuhuanghou-title",
+      "from": "伍皇后",
+      "to": "武皇后",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "yuantianfang-name",
+      "from": "元天方",
+      "to": "袁天罡",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "fengxiaobao-name",
+      "from": "冯晓宝",
+      "to": "冯小宝",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "xuxiaode-name",
+      "from": "徐效德",
+      "to": "徐孝德",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "lijingye-name",
+      "from": "徐敬烨",
+      "to": "徐敬业",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "chengwuting-name",
+      "from": "成务挺",
+      "to": "程务挺",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "fangyiai-name",
+      "from": "房仪隘",
+      "to": "房遗爱",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "lichengfeng-name",
+      "from": "李乘风",
+      "to": "李淳风",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "taishiling-lichengfeng-name",
+      "from": "太史令李乘风",
+      "to": "太史令李淳风",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "liyifu-name",
+      "from": "李益府",
+      "to": "李义府",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "lidaozong-name",
+      "from": "李道棕",
+      "to": "李道宗",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "chusuiliang-name",
+      "from": "楚遂良",
+      "to": "褚遂良",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wuyuanshun-half-restored-name",
+      "from": "武元顺",
+      "to": "武顺",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "direnjie-name",
+      "from": "狄任介",
+      "to": "狄仁杰",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wangyifu-name",
+      "from": "王祎芙",
+      "to": "王氏",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "lixiaoyi-name",
+      "from": "礼孝逸",
+      "to": "李孝逸",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "li-clan-lixiaoyi-phrase",
+      "from": "礼氏族人礼孝逸",
+      "to": "李氏族人李孝逸",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "lijiancheng-name",
+      "from": "礼建成",
+      "to": "李建成",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "lichengqian-name",
+      "from": "礼承乾",
+      "to": "李承乾",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "chenggan-name-variant",
+      "from": "承干",
+      "to": "承乾",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "lisujie-name",
+      "from": "礼素节",
+      "to": "李素节",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "xiaoshufei-title",
+      "from": "萧舒妃",
+      "to": "萧淑妃",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "xuewanche-name",
+      "from": "薛万澈",
+      "to": "薛万彻",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "qiujunxian-name",
+      "from": "邱俊羡",
+      "to": "李君羡",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "weixuanzhen-name",
+      "from": "韦玄真",
+      "to": "韦玄贞",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "luobinwang-name",
+      "from": "骆滨王",
+      "to": "骆宾王",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wuhou-title",
+      "from": "伍后",
+      "to": "武后",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wu-family",
+      "from": "伍家",
+      "to": "武家",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wushi-bare-surname",
+      "from": "伍氏",
+      "to": "武氏",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "li-surname-phrase",
+      "from": "姓礼",
+      "to": "姓李",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "anning-name",
+      "from": "安宁",
+      "to": "安定",
+      "modes": [
+        "all"
+      ],
+      "skipWhenNear": [
+        "何来安宁",
+        "内心难以安宁",
+        "后庭安宁",
+        "大唐安宁",
+        "天下安宁",
+        "安宁与解脱",
+        "安宁并无战事",
+        "得到安宁",
+        "最后的安宁",
+        "盛朝安宁",
+        "短暂安宁",
+        "边境安宁",
+        "还后庭安宁",
+        "还大唐安宁",
+        "还盛朝安宁"
+      ],
+      "nearWindow": 8
+    },
+    {
+      "id": "xuhui-name",
+      "from": "徐蕙",
+      "to": "徐惠",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "chuxiang-title",
+      "from": "楚相",
+      "to": "褚相",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "waner-name",
+      "from": "琬儿",
+      "to": "婉儿",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "shengdi-title",
+      "from": "盛帝",
+      "to": "太宗皇帝",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "shengchao-dynasty",
+      "from": "盛朝",
+      "to": "大唐",
+      "modes": [
+        "all"
+      ],
+      "skipWhenNear": [
+        "盛朝徐影帝"
+      ],
+      "nearWindow": 4
+    },
+    {
+      "id": "shengan-city",
+      "from": "盛安",
+      "to": "长安",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "shengwu-men-incident",
+      "from": "盛武门事变",
+      "to": "玄武门事变",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "daciensi-temple",
+      "from": "大祠恩寺",
+      "to": "大慈恩寺",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "taiyuan-wangshi-family",
+      "from": "泰原王氏",
+      "to": "太原王氏",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "tang-palace-bad-end-title",
+      "from": "大闹盛宫",
+      "to": "大闹唐宫",
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "taowushi-xi",
+      "from": "讨伍氏檄",
+      "to": "讨武氏檄",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "hongwen-guan",
+      "from": "泓文馆",
+      "to": "弘文馆",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "wuzhou-polity",
+      "from": "伍周",
+      "to": "武周",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "tianshou-era",
+      "from": "天绶",
+      "to": "天授",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "hongdao-era",
+      "from": "宏道",
+      "to": "弘道",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "yonghui-era",
+      "from": "永辉",
+      "to": "永徽",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "liuxiang-name",
+      "from": "柳相",
+      "to": "柳奭",
+      "sourceGroup": "game_ui_extra",
+      "targets": [
+        "textclient"
+      ],
+      "textClientKeys": [
+        "TID_CharacterConfig_439424",
+        "TID_CharacterConfig_938743",
+        "TID_CharacterConfig_406593",
+        "TID_CharacterConfig_380294",
+        "TID_CharacterConfig_620037",
+        "TID_CharacterConfig_542238"
+      ],
+      "modes": [
+        "all"
+      ]
+    },
+    {
+      "id": "liji-name",
+      "from": "礼勣",
+      "to": "李勣",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "lihong-name",
+      "from": "礼弘",
+      "to": "李弘",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "lizhong-name",
+      "from": "礼忠",
+      "to": "李忠",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "lidan-name",
+      "from": "礼旦",
+      "to": "李旦",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "lixian1-name",
+      "from": "礼显",
+      "to": "李显",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "li-clan",
+      "from": "礼氏",
+      "to": "李氏",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "lizhi-name",
+      "from": "礼治",
+      "to": "李治",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "litai-name",
+      "from": "礼泰",
+      "to": "李泰",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "lixian-name",
+      "from": "礼贤",
+      "to": "李贤",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "shufei-title",
+      "from": "舒妃",
+      "to": "淑妃",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "bianji-name",
+      "from": "辩积",
+      "to": "辩机",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "bianji-case-context",
+      "from": "辩积相关谋反案",
+      "to": "辩机相关谋反案",
+      "modes": [
+        "all",
+        "phonetic"
+      ]
+    },
+    {
+      "id": "gaoyang-name",
+      "from": "高扬",
+      "to": "高阳",
+      "modes": [
+        "all",
+        "phonetic"
+      ],
+      "skipWhenNear": [
+        "兴致高扬",
+        "嘴角高扬",
+        "士气高扬",
+        "声名高扬",
+        "情绪高扬",
+        "斗志高扬",
+        "旌旗高扬",
+        "旗帜高扬",
+        "高扬起",
+        "高扬起来",
+        "高高扬起"
+      ],
+      "nearWindow": 8
+    }
+  ]
+}

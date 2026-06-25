@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>盛世天下：数值</title>
+  <script>
+    const STORAGE_KEY = 'rte-branch-preview-v5';
+    try {
+      const state = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}') || {};
+      state.mode = 'values';
+      state.navKey = 'values';
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch {}
+    window.location.replace('storyline_graph.html');
+  </script>
+</head>
+<body>
+  <p>正在进入数值面板...</p>
+</body>
+</html>
